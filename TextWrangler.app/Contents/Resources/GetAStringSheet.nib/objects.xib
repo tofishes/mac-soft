@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonRootControl" id="187">
+      <string name="viewFrame">0 0 471 119 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonEditText" id="191">
+          <ostype name="controlSignature">GASt</ostype>
+          <int name="controlID">3</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">35 47 413 16 </string>
+          <string name="bounds">47 35 63 448 </string>
+        </object>
+        <object class="IBCarbonButton" id="189">
+          <ostype name="controlSignature">GASt</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">1</int>
+          <string name="viewFrame">371 79 80 20 </string>
+          <string name="bounds">79 371 99 451 </string>
+        </object>
+        <object class="IBCarbonButton" id="188">
+          <ostype name="command">not!</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">279 79 80 20 </string>
+          <string name="bounds">79 279 99 359 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="190">
+          <ostype name="controlSignature">GASt</ostype>
+          <int name="controlID">2</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="viewFrame">20 20 431 16 </string>
+          <string name="bounds">20 20 36 451 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 119 471 </string>
+    </object>
+    <reference idRef="188"/>
+    <reference idRef="191"/>
+    <object class="IBCarbonWindow" id="186">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="187"/>
+      <string name="windowRect">100 100 219 571 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="189"/>
+    <reference idRef="190"/>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="186"/>
+    <reference idRef="187"/>
+    <reference idRef="187"/>
+    <reference idRef="1"/>
+    <reference idRef="187"/>
+    <reference idRef="187"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>GetAStringSheet</string>
+    <reference idRef="186"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">201</unsigned_int>
+</object>

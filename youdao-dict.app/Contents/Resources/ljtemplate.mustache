@@ -1,0 +1,31 @@
+<div id="examples" class="trans-wrapper" style="font-size: 13px">
+    <div id="examplesToggle">
+        <div id="bilingual" class="trans-container  tab-content more-collapse">
+                <ul class="ol">
+				{{#sentences}}
+                    {{#item}}
+                    <li>
+                        <p class="e-spell">{{{sentence}}}
+                        {{^transpeech}}
+                        <a data-speech="{{speechsentence}}" href="javascript:void(0)" title="发音" class="sp dictvoice"></a>
+                        {{/transpeech}}
+                        </p>
+                        <p>{{&trans}}
+                        {{#transpeech}}
+                        <a data-speech="{{speechsentence}}" href="javascript:void(0)" title="发音" class="sp dictvoice"></a>
+                        {{/transpeech}}
+                        </p>
+					</li>
+                    
+					{{/item}}
+				{{/sentences}}
+				</ul>
+            </div>
+            
+        </div>
+        
+    </div>
+
+{{#noAnySentence}}
+&nbsp&nbsp很遗憾，没有找到该词条的相关的例句
+                        {{/noAnySentence}}

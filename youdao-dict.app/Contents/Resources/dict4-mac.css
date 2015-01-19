@@ -1,0 +1,440 @@
+/* @group 全局设置
+ -------------------------------------------------------------*/
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px; /*默认12号字体*/
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color:#3d3d3d;
+}
+
+/*去除默认margin的影响*/
+h1, h2, h3, h4, h5, p, ul, form {
+    margin: 0;
+    padding: 0;
+}
+
+/*去除 img 的默认 border */
+img {
+    border: none;
+}
+
+/*点击链接后的颜色*/
+a:link, a:visited {
+    color: #2779b6;
+}
+
+/* 高亮关键词 */
+b {
+    font-weight: normal;
+    color: #54903f;
+}
+
+/*所有内部链接没有下划线*/
+.sp {
+    overflow: hidden;
+    background: url(dict-mac.png) no-repeat;
+    vertical-align: middle;
+}
+
+/*@group 加载提示
+---------------------------------------------------------*/
+#actionTips {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center
+}
+
+#actionTips .at-container {
+    display: inline;
+    padding: 3px 10px;
+    color: #808080;
+    background: #fefcd1
+}
+
+/* @group 切换语言环境提示
+----------------------------------------------------------------*/
+.tips-wrapper {
+    width: 100%;
+    padding: 0 1em;
+    margin: -1em -1em 1em;
+    background: #fefcd1
+}
+
+.tip {
+    padding: 1em;
+    color: #808080
+}
+
+
+/* @group translation 翻译模块全局设置，二级标题 三级标题
+---------------------------------------------------------*/
+.trans-wrapper {
+    margin: 0 8px;
+}
+
+/*整体距左端 15px*/
+.trans-wrapper h2 {
+    margin: 10px 10px 12px 0;
+    position: relative;
+    zoom: 1;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+
+.trans-wrapper h3 {
+    font-size: 12px;
+    position: relative;
+    margin: 10px 10px 10px 0;
+    height: 23px;
+    line-height: 23px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.trans-wrapper h4 {
+    margin: 2px 0;
+}
+
+/* @module 标题右侧隐藏显示图标
+---------------------------------------------------------------*/
+.trans-wrapper h3 .toggle {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    width: 11px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.trans-wrapper h3 .toggleOpen {
+    background: url(dict-mac.png) no-repeat -37px 6px;
+}
+
+.trans-wrapper h3 .toggleClose {
+    background: url(dict-mac.png) no-repeat -37px -7px;
+}
+
+/* @module 选项卡
+---------------------------------------------------------------*/
+.tabs a, .tab-current {
+    display: inline-block;
+    width:65px;
+    height:23px;
+    border:1px solid #CBCBCB;
+    border-bottom: none;
+    text-align: center;
+}
+
+.tabs a span{
+    display: block;
+    font-weight: normal;
+    cursor: pointer;
+    color:#313131;
+    font-size: 13px;
+    background-color: #fff;
+}
+
+/* @module 同近义词
+---------------------------------------------------------------*/
+.synonyms ul li{
+    margin-bottom: 20px;
+}
+
+.synonyms .syn span{
+    color:#1c6fb8;
+    word-spacing:2px;
+}
+
+.synonyms .last{
+    margin-bottom: -3px;
+}
+
+
+
+/* @module 具体内容部分
+--------------------------------------------------------------------*/
+/*所有内容块距边缘 5 像素*/
+.trans-container {
+    margin: 13px 0 18px 5px;
+}
+
+/*行高，段间距*/
+.trans-container p {
+    line-height: 18px;
+    margin: 3px 0;
+}
+
+.trans-container h5 {
+    font-size: 1em
+}
+
+/*例句内容  module*/
+.trans-container li {
+    margin-bottom: 6px;
+}
+
+.trans-container h4 sup {
+    font-size: .77em;
+    font-weight: normal;
+}
+
+.trans-container .ol {
+    margin: 8px 15px 18px 25px;
+    list-style: decimal;
+}
+
+.trans-container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none ;
+}
+
+/*@component 音标
+---------------------------------------------------------*/
+.phonetic, .field, .origin, .complexfont {
+    font-weight: normal;
+    color: #666;
+    margin: 0 .1em
+}
+
+h2 .phonetic {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #565656;
+}
+
+h4 .field, h4 .origin, h4 .def, h4 .collapsed-def {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.phonetic {
+    font-family: "lucida sans unicode", arial, sans-serif
+}
+
+/* @component 词典发音 2个状态
+-------------------------------------------------------*/
+.dictvoice {
+    outline: none;
+    display: inline-block;
+    width: 23px;
+    height: 19px;
+    background-position: -97px 0;
+}
+
+.dictvoice:hover {
+    background-position: -68px 0;
+}
+
+/*词性及解释
+---------------------------------------------------------*/
+/*词性*/
+.pos {
+    margin-right: .1em;
+    font-family: Arial, sans-serif;
+}
+
+/*解释*/
+.def {
+    margin-left: .1em;
+    color: #313131;
+}
+
+/* @module 词组
+--------------------------------------------------------*/
+.pr-container{
+    margin-top:15px;
+}
+
+.wordGroup .contentTitle {
+    font-family: arial;
+    color: #1c78b8;
+    margin-right: 6px;
+	cursor: hand;
+}
+
+.wordGroup .contentTitle a {
+    text-decoration: none;
+}
+
+/*@component 附加说明
+--------------------------------------------------*/
+p.via {
+    color: #959595;
+}
+
+/* 通过**，与内容间隔15px */
+p.via a {
+    color: #1C78B8;
+	cursor: hand;
+}
+
+/*例句出处*/
+.example-via a {
+    color: #959595;
+    text-decoration: none
+}
+
+
+/* @group 网络释义
+-------------------------------------------------------------------------------*/
+.wt-container .collapsed-def {
+    display: none
+}
+
+/*折叠*/
+.wt-collapse .collapsed-def {
+    display: inline;
+    font-weight: normal
+}
+
+#tWebTrans .wt-collapse p {
+    display: none
+}
+
+.phrase-collapse .wt-more {
+    display: none
+}
+
+.wt-container div {
+    font-weight: bold;
+    position: relative;
+    line-height: 20px;
+}
+
+.wt-container div span {
+    zoom: 1;
+    vertical-align: middle;
+}
+
+.wt-container p {
+    margin: 5px 17px;
+}
+
+#results .wt-container div a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.wt-container div .do-detail {
+    background-position: 0 0;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+}
+
+#tWebTrans .wt-collapse div .do-detail {
+    background-position: -18px 0;
+}
+
+.wt-container a {
+    outline: none;
+}
+
+/*此处特殊性需高于 .wt-container h4 .do-detail*/
+#tWebTrans .wt-container div a:hover {
+    background-position: 0 0;
+}
+
+/*此处特殊性需高于 .wt-container h4 .do-detail*/
+#tWebTrans .wt-collapse div a:hover {
+    background-position: -18px 0;
+}
+
+/*功能性设置，用于折叠的JS方法 hasSubMenu*/
+.more {
+    height: 18px;
+    width: 200px;
+    line-height: 18px;
+    margin: 20px 0 15px;
+    color: #1c6fb8;
+	cursor: hand;
+}
+
+.more_sp {
+    background-position: -53px -7px;
+    display: inline-block;
+    width: 11px;
+    height: 6px;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+/*需要提高其特殊性*/
+#webPhrase h4 {
+    margin: 16px 0 6px;
+    font-size: 12px;
+}
+
+.more-collapse .collapse {
+    display: none;
+}
+
+.more-collapse .more_sp {
+    background-position: -53px 0;
+}
+
+.show_more {
+    display: none;
+}
+
+.more-collapse .show_more {
+    display: inline;
+}
+
+.show_less {
+    display: inline;
+}
+
+.more-collapse .show_less {
+    display: none;
+}
+
+/*@module 例句
+----------------------------------------------------*/
+.more-example {
+    text-decoration: none;
+   
+    color: #2779B6;
+    margin-left: 10px;
+}
+
+/* @module  百科
+-------------------------------------------------------*/
+#eBaike .title {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#eBaike .content {
+    overflow: hidden;
+    zoom: 1;
+}
+
+#eBaike .content .img_r {
+    float: right;
+    padding:4px;
+    background: #f7f7f7;
+    border: 1px solid #DEE0DF;
+}
+
+#eBaike .see_more {
+    display:block;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+/*业务相关*/
+.def a {
+    text-decoration: none;
+}
+
+.highLight {
+    background: #f5f3dd;
+}

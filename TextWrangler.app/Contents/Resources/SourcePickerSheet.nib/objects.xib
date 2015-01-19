@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonButton" id="185">
+      <ostype name="controlSignature">SrcP</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">open</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+      </object>
+      <string name="title">Other…  ⌘O</string>
+      <string name="viewFrame">20 394 118 20 </string>
+      <string name="bounds">394 20 414 138 </string>
+    </object>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="181">
+        <string name="viewFrame">0 0 347 434 </string>
+        <array count="4" name="subviews">
+          <object class="IBCarbonHIView" id="182">
+            <ostype name="controlSignature">SrcP</ostype>
+            <int name="controlID">1</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="classID">com.barebones.CBigListHIView</string>
+            <string name="viewFrame">20 20 307 354 </string>
+            <string name="bounds">20 20 374 327 </string>
+          </object>
+          <object class="IBCarbonButton" id="183">
+            <ostype name="controlSignature">SrcP</ostype>
+            <int name="controlID">500</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">257 394 70 20 </string>
+            <string name="bounds">394 257 414 327 </string>
+          </object>
+          <object class="IBCarbonButton" id="184">
+            <ostype name="controlSignature">SrcP</ostype>
+            <int name="controlID">501</int>
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">175 394 70 20 </string>
+            <string name="bounds">394 175 414 245 </string>
+          </object>
+          <reference idRef="185"/>
+        </array>
+        <string name="bounds">0 0 434 347 </string>
+      </object>
+      <string name="windowRect">162 412 596 759 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="182"/>
+    <reference idRef="181"/>
+    <reference idRef="184"/>
+    <reference idRef="183"/>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="181"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SourcePickerSheet</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">191</unsigned_int>
+</object>

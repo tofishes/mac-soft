@@ -1,0 +1,221 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="19" name="allObjects">
+    <object class="IBCarbonCheckBox" id="201">
+      <ostype name="controlSignature">Sort</ostype>
+      <int name="controlID">1</int>
+      <string name="title">Numbers match by value  ⌃V</string>
+      <string name="viewFrame">31 18 209 18 </string>
+      <string name="bounds">18 31 36 240 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="203">
+      <ostype name="controlSignature">Sort</ostype>
+      <int name="controlID">8</int>
+      <ostype name="command">GrpP</ostype>
+      <object name="menu" class="IBCarbonMenu" id="207">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <object class="IBCarbonMenuItem" id="196">
+            <string name="title">dummy item</string>
+            <boolean name="checked">TRUE</boolean>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="title">Searching pattern:</string>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">16 33 144 20 </string>
+      <string name="bounds">143 36 163 180 </string>
+    </object>
+    <object class="IBCarbonWindow" id="198">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Sort Lines</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="212">
+        <string name="viewFrame">0 0 534 365 </string>
+        <array count="9" name="subviews">
+          <reference idRef="201"/>
+          <object class="IBCarbonCheckBox" id="197">
+            <ostype name="controlSignature">Sort</ostype>
+            <int name="controlID">2</int>
+            <string name="title">Ignore leading white space  ⌃I</string>
+            <string name="viewFrame">31 44 219 18 </string>
+            <string name="bounds">44 31 62 250 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="200">
+            <ostype name="controlSignature">Sort</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Reverse sort  ⌘R</string>
+            <string name="viewFrame">31 70 128 18 </string>
+            <string name="bounds">70 31 88 159 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="202">
+            <ostype name="controlSignature">Sort</ostype>
+            <int name="controlID">4</int>
+            <ostype name="command">OutT</ostype>
+            <string name="title">Sorted lines to clipboard  ⌘1</string>
+            <string name="viewFrame">264 18 210 18 </string>
+            <string name="bounds">18 264 36 474 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="193">
+            <ostype name="controlSignature">Sort</ostype>
+            <int name="controlID">5</int>
+            <ostype name="command">OutT</ostype>
+            <string name="title">Sorted lines to new document  ⌘2</string>
+            <string name="viewFrame">264 44 244 18 </string>
+            <string name="bounds">44 264 62 508 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="211">
+            <ostype name="controlSignature">Sort</ostype>
+            <int name="controlID">6</int>
+            <ostype name="command">OutT</ostype>
+            <string name="title">Sorted lines replace selection  ⌘3</string>
+            <string name="viewFrame">264 70 241 18 </string>
+            <string name="bounds">70 264 88 505 </string>
+          </object>
+          <object class="IBCarbonGroupBox" id="210">
+            <ostype name="controlSignature">Sort</ostype>
+            <int name="controlID">7</int>
+            <ostype name="command">GTog</ostype>
+            <string name="title">Sort using pattern  ⌘P</string>
+            <int name="titleType">1</int>
+            <string name="viewFrame">20 110 494 195 </string>
+            <array count="6" name="subviews">
+              <object class="IBCarbonStaticText" id="206">
+                <ostype name="controlSignature">Sort</ostype>
+                <int name="controlID">13</int>
+                <string name="title">Sort Using:</string>
+                <int name="justification">-1</int>
+                <string name="viewFrame">36 88 120 16 </string>
+                <string name="bounds">198 56 214 176 </string>
+              </object>
+              <object class="IBCarbonEditText" id="194">
+                <ostype name="controlSignature">Sort</ostype>
+                <int name="controlID">9</int>
+                <boolean name="isUnicode">TRUE</boolean>
+                <boolean name="isSingleLine">TRUE</boolean>
+                <string name="title">Search String</string>
+                <string name="viewFrame">167 35 308 16 </string>
+                <string name="bounds">145 187 161 495 </string>
+              </object>
+              <object class="IBCarbonEditText" id="205">
+                <ostype name="controlSignature">Sort</ostype>
+                <int name="controlID">12</int>
+                <boolean name="isUnicode">TRUE</boolean>
+                <boolean name="isSingleLine">TRUE</boolean>
+                <string name="title">Matching Expression</string>
+                <string name="viewFrame">191 160 284 16 </string>
+                <string name="bounds">270 211 286 495 </string>
+              </object>
+              <reference idRef="203"/>
+              <object class="IBCarbonCheckBox" id="195">
+                <ostype name="controlSignature">Sort</ostype>
+                <int name="controlID">10</int>
+                <string name="title">Case sensitive</string>
+                <string name="viewFrame">164 62 110 18 </string>
+                <string name="bounds">172 184 190 294 </string>
+              </object>
+              <object class="IBCarbonRadioGroup" id="214">
+                <ostype name="controlSignature">Sort</ostype>
+                <int name="controlID">11</int>
+                <int name="numRows">3</int>
+                <array count="3" name="radioTitles">
+                  <array count="1">
+                    <string>Entire match</string>
+                  </array>
+                  <array count="1">
+                    <string>All sub-patterns (\1\2…\N)</string>
+                  </array>
+                  <array count="1">
+                    <string>Specific sub-patterns:</string>
+                  </array>
+                </array>
+                <string name="viewFrame">164 90 216 68 </string>
+                <string name="bounds">200 184 268 400 </string>
+              </object>
+            </array>
+            <string name="bounds">110 20 305 514 </string>
+          </object>
+          <object class="IBCarbonButton" id="199">
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">342 325 80 20 </string>
+            <string name="bounds">325 342 345 422 </string>
+          </object>
+          <object class="IBCarbonButton" id="192">
+            <ostype name="controlSignature">Sort</ostype>
+            <int name="controlID">500</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Sort</string>
+            <string name="viewFrame">434 325 80 20 </string>
+            <string name="bounds">325 434 345 514 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 365 534 </string>
+      </object>
+      <string name="windowRect">100 100 465 634 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="199"/>
+    <reference idRef="200"/>
+    <reference idRef="206"/>
+    <reference idRef="205"/>
+    <reference idRef="207"/>
+    <reference idRef="196"/>
+    <reference idRef="211"/>
+    <reference idRef="193"/>
+    <reference idRef="197"/>
+    <reference idRef="212"/>
+    <reference idRef="210"/>
+    <reference idRef="214"/>
+    <reference idRef="202"/>
+    <reference idRef="195"/>
+    <reference idRef="194"/>
+    <reference idRef="192"/>
+  </array>
+  <array count="19" name="allParents">
+    <reference idRef="212"/>
+    <reference idRef="210"/>
+    <reference idRef="1"/>
+    <reference idRef="212"/>
+    <reference idRef="212"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="203"/>
+    <reference idRef="207"/>
+    <reference idRef="212"/>
+    <reference idRef="212"/>
+    <reference idRef="212"/>
+    <reference idRef="198"/>
+    <reference idRef="212"/>
+    <reference idRef="210"/>
+    <reference idRef="212"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="212"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>SortLines</string>
+    <reference idRef="198"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">216</unsigned_int>
+</object>

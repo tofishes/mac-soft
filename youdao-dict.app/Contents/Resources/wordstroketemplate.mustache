@@ -1,0 +1,71 @@
+<html>
+<head>
+<style>
+body {
+    font-size:13px;
+    font-family: Hei;
+    color: #e6e6e6;
+}
+#title{
+    font-family: New Times;
+    font-size:15px;
+    font-weight: bold;
+}
+#image {
+    vertical-align: -4px;
+
+}
+.phonetic{
+    font-family:  Times;
+    font-size:13px;
+}
+ 
+.transitem{
+    margin-bottom : 4px;
+}
+.dictvoice {
+    outline: none;
+    display: inline-block;
+    width: 23px;
+    height: 19px;
+    background-position: -97px 0;
+}
+
+.dictvoice:hover {
+    background-position: -68px 0;
+}
+.sp {
+    overflow: hidden;
+    background: url(dict-mac.png) no-repeat;
+    vertical-align: middle;
+}
+
+
+</style>
+<script type="text/javascript">
+function getValue()
+{
+    window.framewnd.resizeWnd_(document.body.scrollHeight);
+}
+function playsound()
+{
+    var src ="http://dict.youdao.com/dictvoice?audio="+ "{{{speech}}}" ;
+    var speech = new Audio(src);
+    speech.play()
+}
+  
+</script>
+</head>
+<body onload="getValue()">
+<span id ="title"> {{&title}} </span><span class="phonetic">{{{phone}}}</span> {{#speech}}<a href="#" onclick="javascript: playsound()"><img alt="Embedded Image" width="17" height="17" 
+  src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAARAAAAEQCOgU8nAAAA5klEQVQ4y82UzU7CQBRGz6WVqZYQTNTUZ2lc+UCYGFZuuvEBeCCJhPAsNv7EphFqgfa6aIIbOuLgwpvMbubMuTPfjKgqh1aHP6i9ITKaqtxM1BkiyVxPLkMYBG4mksw1OhsQhcdwtHu6bwXczfQiCjnvwxpA9jwTGT6o3D42vfe6nAaGoH19i0nfbLU9X/CMy+14nWYAYt3fZlLVW7SijpC8BN9reBulKgHzS4iOr797+Fjx3ivpGmN1suZE76/k+a3gJYdVAW2kH8OmSSzpa0a6KGBdu78dTWJZPi0g+9wdyn/zFXwBkqtC+7mk0MQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTEtMTItMTRUMDA6MDk6MzAtMDU6MDC8CL56AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDExLTEyLTE0VDAwOjA5OjMwLTA1OjAwzVUGxgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAASUVORK5CYII%3D" id="image"/></a>{{/speech}} <br/><br/>
+{{#trans}}
+<div class="transitem" >{{{item}}}</div>
+{{/trans}} 
+
+<hr style="height:1px;border:none;border-top:1px solid #666; margin-top: 10px; margin-bottom:10px"/>
+{{#webTrans}}{{#item}} 
+
+<div class="transitem" >{{&key}} - {{&trans}}{{/item}}</div>{{/webTrans}}
+</body>
+</html>

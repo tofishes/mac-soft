@@ -1,0 +1,65 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>有道词典-mac-index</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="everydayEnglish_1" class="index">
+    <h2><span class="logo">有道词典</span><span class="version">mac v1.0.4</span></h2>
+    <p class="every-title"><span>每日英语</span></p>
+    <div class="everydayEnglish">
+        <a class="current-day"></a>
+        <div class="english">
+        </div>
+    </div>
+    <p class="link"><a class="feedback" href="http://cidian.youdao.com/feedback.html?">意见反馈</a><span>|</span><a class="visit" href="#">访问网页</a><span>|</span><a class="note" href="#">有道云笔记</a></p>
+</div>
+
+<script type="text/javascript" language="javascript">
+//以下代码防止首页弹出警告
+window.onerror = function() {
+    return true;
+};
+
+var datas = [
+    {
+        type:"EXAMPLE",
+        sen:"Our destiny offers not the cup of despair, but the chalice of opportunity. So let us seize it, not in fear, but in gladness.",
+        trans:"命运给予我们的不是失望之酒，而是机会之杯。因此，让我们毫无畏惧，满心愉悦地把握命运。",
+        rel:""
+    },
+    {
+        type:"EXAMPLE",
+        sen:"Ordinary people merely think how they shall spend their time; a man of talent tries to use it.",
+        trans:"普通人只想到如何度过时间，有才能的人设法利用时间。",
+        rel:""
+    }
+];
+
+</script>
+<script type="text/javascript" src="jquery.js"></script>
+<script>
+$(function(){
+    window.onload = function() {
+        window.onresize = function() {
+            $("body").height($(window).height());
+        };
+            $("body").height($(window).height());
+        var randomData = datas[Math.floor(Math.random()*datas.length)];
+        $(".english").addClass("example").append(
+             '<div class="content"><p class="sen">' + randomData.sen + '</p>' +
+             '<p class="trans">' + randomData.trans + '</p></div>'
+        );
+         var date = new Date();
+        var current = date.getFullYear()+'.'+(date.getMonth()<9 ? '0'+(date.getMonth()+1 ) : (date.getMonth()+1))+'.'+date.getDate();
+        $('.current-day').html(current);
+    };
+
+});
+</script>
+</body>
+</html>
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonCheckBox" id="172">
+      <ostype name="controlSignature">Emac</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">Opt </ostype>
+      <string name="title">Editing options</string>
+      <string name="viewFrame">38 69 166 18 </string>
+      <string name="bounds">69 38 87 204 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="169">
+      <ostype name="controlSignature">Emac</ostype>
+      <int name="controlID">3</int>
+      <int name="numRows">1</int>
+      <int name="numCols">2</int>
+      <int name="intercellHeight">1</int>
+      <array count="1" name="radioTitles">
+        <array count="2">
+          <string>Beginning</string>
+          <string>End</string>
+        </array>
+      </array>
+      <string name="viewFrame">92 19 188 18 </string>
+      <string name="bounds">19 92 37 280 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="173">
+      <ostype name="controlSignature">Emac</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">Opt </ostype>
+      <string name="title">Display options</string>
+      <string name="viewFrame">38 93 166 18 </string>
+      <string name="bounds">93 38 111 204 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="167">
+      <string name="viewFrame">0 0 384 155 </string>
+      <array count="8" name="subviews">
+        <reference idRef="169"/>
+        <reference idRef="172"/>
+        <reference idRef="173"/>
+        <object class="IBCarbonCheckBox" id="174">
+          <ostype name="controlSignature">Emac</ostype>
+          <int name="controlID">6</int>
+          <ostype name="command">Opt </ostype>
+          <string name="title">Font &amp; tabs</string>
+          <string name="viewFrame">38 117 166 18 </string>
+          <string name="bounds">117 38 135 204 </string>
+        </object>
+        <object class="IBCarbonButton" id="171">
+          <ostype name="controlSignature">Emac</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <int name="iconPosition">0</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">294 83 70 20 </string>
+          <string name="bounds">83 294 103 364 </string>
+        </object>
+        <object class="IBCarbonButton" id="170">
+          <ostype name="controlSignature">Emac</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <int name="iconPosition">0</int>
+          <string name="title">Insert</string>
+          <string name="viewFrame">294 115 70 20 </string>
+          <string name="bounds">115 294 135 364 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="175">
+          <string name="title">Location:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 20 64 16 </string>
+          <string name="bounds">20 20 36 84 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="176">
+          <string name="title">Settings to include:</string>
+          <string name="viewFrame">28 45 130 16 </string>
+          <string name="bounds">45 28 61 158 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 155 384 </string>
+    </object>
+    <reference idRef="174"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="autoDragTracking">TRUE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Dialog</string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">300 300 455 684 </string>
+      <string name="ScreenRectAtEncodeTime">48 0 1177 1920 </string>
+    </object>
+    <reference idRef="175"/>
+    <reference idRef="176"/>
+    <reference idRef="171"/>
+    <reference idRef="170"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>InsertEmacsBlock</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">177</unsigned_int>
+</object>

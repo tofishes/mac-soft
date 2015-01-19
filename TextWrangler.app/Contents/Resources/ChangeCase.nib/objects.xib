@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonRadioGroup" id="190">
+      <ostype name="controlSignature">ChCa</ostype>
+      <int name="controlID">1</int>
+      <int name="numRows">3</int>
+      <int name="numCols">2</int>
+      <array count="3" name="radioTitles">
+        <array count="2">
+          <string>ALL UPPER CASE  ⌘1</string>
+          <string>Capitalize Words  ⌘3</string>
+        </array>
+        <array count="2">
+          <string>all lower case  ⌘2</string>
+          <string>Capitalize sentences.  ⌘4</string>
+        </array>
+        <array count="2">
+          <string>Hide Me</string>
+          <string>Capitalize lines  ⌘5</string>
+        </array>
+      </array>
+      <string name="viewFrame">32 56 385 61 </string>
+      <string name="bounds">56 32 117 417 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="180">
+      <string name="viewFrame">0 0 437 177 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonButton" id="187">
+          <ostype name="controlSignature">ChCa</ostype>
+          <int name="controlID">500</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Change</string>
+          <string name="viewFrame">337 137 80 20 </string>
+          <string name="bounds">137 337 157 417 </string>
+        </object>
+        <reference idRef="190"/>
+        <object class="IBCarbonButton" id="186">
+          <ostype name="controlSignature">ChCa</ostype>
+          <int name="controlID">501</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">245 137 80 20 </string>
+          <string name="bounds">137 245 157 325 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="192">
+          <string name="title">Change Case:</string>
+          <string name="viewFrame">20 20 114 16 </string>
+          <string name="bounds">20 20 36 134 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 177 437 </string>
+    </object>
+    <reference idRef="186"/>
+    <object class="IBCarbonWindow" id="184">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Change Case</string>
+      <reference name="rootControl" idRef="180"/>
+      <string name="windowRect">185 307 362 744 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="192"/>
+    <reference idRef="187"/>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="180"/>
+    <reference idRef="184"/>
+    <reference idRef="180"/>
+    <reference idRef="1"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>ChangeCase</string>
+    <reference idRef="184"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">194</unsigned_int>
+</object>

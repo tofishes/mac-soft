@@ -1,0 +1,39 @@
+
+ <div id="eBaike" class="trans-wrapper">
+	<h2>{{title}}</h2>
+		{{{headsection}}}
+			{{#sections}}
+			{{#item}}<br/>
+			<h3>
+				{{{subtitle}}}
+			</h3>
+			<div id="eBaikeToggle">
+            <div id="bk" class="trans-container  tab-content" style="font-size:12px">
+                <div class="content">
+					
+                    <p>{{{content}}}
+                    </p>
+                </div>
+			</div>
+			</div>
+			{{/item}}
+		{{/sections}}
+		{{#items}}
+		{{#item}}
+        <div id="eBaikeToggle">
+            <div id="bk" class="trans-container  tab-content" style="font-size:12px">
+                <h3><a class="bklink" href="app:bk:{{title}}">{{title}}</a></h3>
+                <div class="content">
+					
+                    {{#image}}<span class="img_r"><img src="{{image}}" alt=""></span>{{/image}}
+                    <p>{{{summary}}}
+                    </p>
+                </div>
+			</div>
+        </div>
+		{{/item}}
+		{{/items}}
+ </div>
+{{#noAnyTrans}}
+&nbsp&nbsp很遗憾，没有找到该词条的百科释义
+{{/noAnyTrans}}

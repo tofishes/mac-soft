@@ -1,0 +1,13 @@
+
+<table id="suggest"  class="frame" style="color:#ffffff;filter:alpha(opacity=50);background-color: #2d2d2d;width:100%;margin:0px 1px 10px auto; border-width:1px;border-style:solid;" >
+{{#items}}
+{{#item}}
+<tr 
+onmouseover= "$(this).css('background-color','#555555')" 
+onmouseout= "$(this).css('background-color','#2d2d2d')" 
+data-log = "{{title}}"
+id="suggest_row"
+width=100%><td><span  style="color:#ffffff;font-size:15px;font-weight:fold;">{{title}}</span> &nbsp;&nbsp;<span style="color:#fff">{{explain}}</span></td></tr>
+{{/item}}
+{{/items}}
+</table>

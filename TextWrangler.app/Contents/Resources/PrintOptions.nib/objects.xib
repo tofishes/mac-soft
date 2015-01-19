@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonRootControl" id="169">
+      <string name="viewFrame">0 0 465 218 </string>
+      <array count="12" name="subviews">
+        <object class="IBCarbonButton" id="220">
+          <ostype name="controlSignature">PrOp</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">365 178 80 20 </string>
+          <string name="bounds">178 365 198 445 </string>
+        </object>
+        <object class="IBCarbonButton" id="221">
+          <ostype name="controlSignature">PrOp</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">273 178 80 20 </string>
+          <string name="bounds">178 273 198 353 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="195">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">5</int>
+          <string name="title">Print page headers</string>
+          <string name="viewFrame">303 44 139 18 </string>
+          <string name="bounds">44 303 62 442 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="196">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">6</int>
+          <string name="title">Print line numbers</string>
+          <string name="viewFrame">32 70 141 18 </string>
+          <string name="bounds">70 32 88 173 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="197">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">7</int>
+          <string name="title">1-Inch gutter</string>
+          <string name="viewFrame">32 96 107 18 </string>
+          <string name="bounds">96 32 114 139 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="198">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">8</int>
+          <string name="title">Print color syntax</string>
+          <string name="viewFrame">32 122 134 18 </string>
+          <string name="bounds">122 32 140 166 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="199">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">10</int>
+          <string name="title">Print full pathname</string>
+          <string name="viewFrame">303 68 145 18 </string>
+          <string name="bounds">68 303 86 448 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="200">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">11</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Date last saved</string>
+            </array>
+            <array count="1">
+              <string>Date of printing</string>
+            </array>
+          </array>
+          <string name="viewFrame">303 120 121 38 </string>
+          <string name="bounds">120 303 158 424 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="193">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Frame printing area</string>
+          <string name="viewFrame">32 44 146 18 </string>
+          <string name="bounds">44 32 62 178 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="217">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">15</int>
+          <string name="title">Page Options:</string>
+          <string name="viewFrame">20 20 114 16 </string>
+          <string name="bounds">20 20 36 134 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="218">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">16</int>
+          <string name="title">Page Headers:</string>
+          <string name="viewFrame">291 20 114 16 </string>
+          <string name="bounds">20 291 36 405 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="219">
+          <ostype name="controlSignature">BBTP</ostype>
+          <int name="controlID">17</int>
+          <string name="title">Time Stamp:</string>
+          <string name="viewFrame">291 96 114 16 </string>
+          <string name="bounds">96 291 112 405 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 218 465 </string>
+    </object>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Text Printing</string>
+      <reference name="rootControl" idRef="169"/>
+      <string name="windowRect">100 100 318 565 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="197"/>
+    <reference idRef="219"/>
+    <reference idRef="196"/>
+    <reference idRef="220"/>
+    <reference idRef="200"/>
+    <reference idRef="221"/>
+    <reference idRef="193"/>
+    <reference idRef="195"/>
+    <reference idRef="218"/>
+    <reference idRef="198"/>
+    <reference idRef="217"/>
+    <reference idRef="199"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="168"/>
+    <reference idRef="1"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>PrintOptions</string>
+    <reference idRef="168"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">223</unsigned_int>
+</object>

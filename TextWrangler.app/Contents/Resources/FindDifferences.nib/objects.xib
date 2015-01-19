@@ -1,0 +1,311 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="31" name="allObjects">
+    <object class="IBCarbonCheckBox" id="199">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">12</int>
+      <string name="title">Ignore curly quotes ( “ ” ‘ ’ )</string>
+      <string name="viewFrame">109 173 194 18 </string>
+      <string name="bounds">173 109 191 303 </string>
+    </object>
+    <object class="IBCarbonHIView" id="188">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">Ofil</ostype>
+      <string name="classID">com.barebones.XTURLWellView</string>
+      <string name="viewFrame">109 99 401 37 </string>
+      <string name="bounds">99 109 136 510 </string>
+    </object>
+    <object class="IBCarbonBevelButton" id="236">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">NOpn</ostype>
+      <int name="bevelThickness">1</int>
+      <int name="contentType">0</int>
+      <int name="contentResID">0</int>
+      <string name="viewFrame">71 58 30 22 </string>
+      <string name="bounds">58 71 80 101 </string>
+    </object>
+    <object class="IBCarbonHIView" id="184">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">Nfil</ostype>
+      <string name="classID">com.barebones.XTURLWellView</string>
+      <string name="viewFrame">109 50 401 37 </string>
+      <string name="bounds">50 109 87 510 </string>
+    </object>
+    <object class="IBCarbonButton" id="187">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">New </ostype>
+      <string name="title">Other… ⌘N</string>
+      <string name="viewFrame">522 58 101 20 </string>
+      <string name="bounds">58 522 78 623 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="192">
+      <string name="title">New:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">20 61 37 16 </string>
+      <string name="bounds">61 20 77 57 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="200">
+      <string name="title">Ignore spaces:</string>
+      <string name="viewFrame">109 199 114 16 </string>
+      <string name="bounds">199 109 215 223 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="211">
+      <string name="title">Item 3</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonPopupButton" id="209">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">20</int>
+      <ostype name="command">FMnu</ostype>
+      <object name="menu" class="IBCarbonMenu" id="210">
+        <string name="title">Popup</string>
+        <array count="3" name="items">
+          <object class="IBCarbonMenuItem" id="213">
+            <string name="title">Item 1</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <object class="IBCarbonMenuItem" id="212">
+            <string name="title">Item 2</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <reference idRef="211"/>
+        </array>
+      </object>
+      <string name="viewFrame">360 269 150 20 </string>
+      <string name="bounds">269 360 289 510 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="238">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">23</int>
+      <string name="title">Skip (…) folders</string>
+      <string name="viewFrame">343 196 137 18 </string>
+      <string name="bounds">196 343 214 480 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="239">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">19</int>
+      <string name="title">Use file filter:</string>
+      <string name="viewFrame">345 245 85 16 </string>
+      <string name="bounds">245 345 261 430 </string>
+    </object>
+    <reference idRef="212"/>
+    <reference idRef="210"/>
+    <object class="IBCarbonCheckBox" id="207">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">16</int>
+      <string name="title">Only compare text files</string>
+      <string name="viewFrame">343 220 167 18 </string>
+      <string name="bounds">220 343 238 510 </string>
+    </object>
+    <object class="IBCarbonButton" id="181">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">410 309 100 20 </string>
+      <string name="bounds">309 410 329 510 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="205">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">18</int>
+      <string name="title">List identical files</string>
+      <string name="viewFrame">343 149 130 18 </string>
+      <string name="bounds">149 343 167 473 </string>
+    </object>
+    <object class="IBCarbonButton" id="191">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">6</int>
+      <ostype name="command">Old </ostype>
+      <string name="title">Other… ⌘O</string>
+      <string name="viewFrame">522 108 101 20 </string>
+      <string name="bounds">108 522 128 623 </string>
+    </object>
+    <object class="IBCarbonButton" id="234">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">21</int>
+      <ostype name="command">EFlt</ostype>
+      <string name="title">Edit…</string>
+      <string name="viewFrame">522 269 101 20 </string>
+      <string name="bounds">269 522 289 623 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="183">
+      <string name="title">Compare:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">38 20 63 16 </string>
+      <string name="bounds">20 38 36 101 </string>
+    </object>
+    <reference idRef="213"/>
+    <object class="IBCarbonBevelButton" id="237">
+      <ostype name="controlSignature">Diff</ostype>
+      <int name="controlID">8</int>
+      <ostype name="command">OOpn</ostype>
+      <int name="bevelThickness">1</int>
+      <int name="contentType">0</int>
+      <int name="contentResID">0</int>
+      <string name="viewFrame">71 106 30 22 </string>
+      <string name="bounds">106 71 128 101 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="193">
+      <string name="title">Old:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">20 109 37 16 </string>
+      <string name="bounds">109 20 125 57 </string>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Find Differences</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="viewFrame">0 0 643 349 </string>
+        <array count="25" name="subviews">
+          <object class="IBCarbonButton" id="180">
+            <ostype name="controlSignature">Diff</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Compare</string>
+            <string name="viewFrame">522 309 100 20 </string>
+            <string name="bounds">309 522 329 622 </string>
+          </object>
+          <reference idRef="181"/>
+          <object class="IBCarbonRadioGroup" id="182">
+            <ostype name="controlSignature">Diff</ostype>
+            <int name="controlID">22</int>
+            <ostype name="command">Mode</ostype>
+            <int name="numRows">1</int>
+            <int name="numCols">2</int>
+            <array count="1" name="radioTitles">
+              <array count="2">
+                <string>Files</string>
+                <string>Folders</string>
+              </array>
+            </array>
+            <string name="viewFrame">109 20 183 22 </string>
+            <string name="bounds">20 109 42 292 </string>
+          </object>
+          <reference idRef="183"/>
+          <reference idRef="184"/>
+          <reference idRef="187"/>
+          <reference idRef="188"/>
+          <reference idRef="191"/>
+          <reference idRef="192"/>
+          <reference idRef="193"/>
+          <object class="IBCarbonCheckBox" id="198">
+            <ostype name="controlSignature">Diff</ostype>
+            <int name="controlID">11</int>
+            <string name="title">Case sensitive</string>
+            <string name="viewFrame">109 149 110 18 </string>
+            <string name="bounds">149 109 167 219 </string>
+          </object>
+          <reference idRef="199"/>
+          <reference idRef="200"/>
+          <reference idRef="239"/>
+          <object class="IBCarbonCheckBox" id="201">
+            <ostype name="controlSignature">Diff</ostype>
+            <int name="controlID">13</int>
+            <string name="title">Leading</string>
+            <string name="viewFrame">121 223 70 18 </string>
+            <string name="bounds">223 121 241 191 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="202">
+            <ostype name="controlSignature">Diff</ostype>
+            <int name="controlID">14</int>
+            <string name="title">Trailing</string>
+            <string name="viewFrame">121 247 70 18 </string>
+            <string name="bounds">247 121 265 191 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="203">
+            <ostype name="controlSignature">Diff</ostype>
+            <int name="controlID">15</int>
+            <string name="title">Runs</string>
+            <string name="viewFrame">121 271 70 18 </string>
+            <string name="bounds">271 121 289 191 </string>
+          </object>
+          <reference idRef="205"/>
+          <object class="IBCarbonCheckBox" id="206">
+            <ostype name="controlSignature">Diff</ostype>
+            <int name="controlID">17</int>
+            <string name="title">Flatten hierarchies</string>
+            <string name="viewFrame">343 172 137 18 </string>
+            <string name="bounds">172 343 190 480 </string>
+          </object>
+          <reference idRef="238"/>
+          <reference idRef="207"/>
+          <reference idRef="209"/>
+          <reference idRef="234"/>
+          <reference idRef="236"/>
+          <reference idRef="237"/>
+        </array>
+        <string name="bounds">0 0 349 643 </string>
+      </object>
+      <string name="windowRect">44 118 393 761 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="182"/>
+    <reference idRef="201"/>
+    <reference idRef="206"/>
+    <reference idRef="180"/>
+    <reference idRef="202"/>
+    <reference idRef="198"/>
+    <reference idRef="203"/>
+    <reference idRef="167"/>
+  </array>
+  <array count="31" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="210"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="210"/>
+    <reference idRef="209"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="210"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>FindDifferences</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">240</unsigned_int>
+</object>

@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonMenuItem" id="188">
+      <string name="title">Item 2</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonButton" id="180">
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Continue</string>
+      <string name="viewFrame">408 121 86 20 </string>
+      <string name="bounds">121 408 141 494 </string>
+    </object>
+    <object class="IBCarbonIcon" id="182">
+      <int name="contentType">132</int>
+      <int name="contentResID">1667331444</int>
+      <int name="creator">0</int>
+      <string name="viewFrame">20 20 48 48 </string>
+      <string name="bounds">20 20 68 68 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="185">
+      <ostype name="controlSignature">UnGu</ostype>
+      <int name="controlID">2</int>
+      <object name="menu" class="IBCarbonMenu" id="186">
+        <string name="title">Popup</string>
+        <array count="3" name="items">
+          <object class="IBCarbonMenuItem" id="189">
+            <string name="title">Item 1</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+          <reference idRef="188"/>
+          <object class="IBCarbonMenuItem" id="187">
+            <string name="title">Item 3</string>
+            <boolean name="updateSingleItem">TRUE</boolean>
+          </object>
+        </array>
+      </object>
+      <string name="title">Read as:</string>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">76 81 418 20 </string>
+      <string name="bounds">81 76 101 494 </string>
+    </object>
+    <reference idRef="187"/>
+    <reference idRef="189"/>
+    <object class="IBCarbonStaticText" id="181">
+      <ostype name="controlSignature">UnGu</ostype>
+      <int name="controlID">3</int>
+      <string name="title">%@ could not determine the encoding of “%@”. Please choose an encoding to continue loading the file.</string>
+      <string name="viewFrame">76 20 418 53 </string>
+      <string name="bounds">20 76 73 494 </string>
+    </object>
+    <reference idRef="186"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Unguessable Encoding</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="viewFrame">0 0 514 161 </string>
+        <array count="4" name="subviews">
+          <reference idRef="185"/>
+          <reference idRef="180"/>
+          <reference idRef="181"/>
+          <reference idRef="182"/>
+        </array>
+        <string name="bounds">0 0 161 514 </string>
+      </object>
+      <string name="windowRect">100 100 261 614 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="167"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="186"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="167"/>
+    <reference idRef="185"/>
+    <reference idRef="1"/>
+    <reference idRef="166"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>UnguessableEncoding</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">191</unsigned_int>
+</object>

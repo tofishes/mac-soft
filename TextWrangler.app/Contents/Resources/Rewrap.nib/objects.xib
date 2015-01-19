@@ -1,0 +1,169 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonStaticText" id="213">
+      <int name="controlID">18</int>
+      <string name="title">Paragraph indentation:</string>
+      <string name="viewFrame">278 22 183 16 </string>
+      <string name="bounds">22 278 38 461 </string>
+    </object>
+    <object class="IBCarbonWindow" id="219">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Rewrap&#10;Rewrap</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="220">
+        <string name="viewFrame">0 0 508 217 </string>
+        <array count="12" name="subviews">
+          <object class="IBCarbonStaticText" id="215">
+            <int name="controlID">17</int>
+            <string name="title">Break lines at:</string>
+            <int name="justification">-1</int>
+            <string name="viewFrame">12 22 96 16 </string>
+            <string name="bounds">22 12 38 108 </string>
+          </object>
+          <reference idRef="213"/>
+          <object class="IBCarbonStaticText" id="226">
+            <int name="controlID">19</int>
+            <string name="title">In quote delimiters:</string>
+            <string name="viewFrame">27 54 158 16 </string>
+            <string name="bounds">54 27 70 185 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="227">
+            <int name="controlID">18</int>
+            <string name="title">characters</string>
+            <string name="viewFrame">170 22 77 16 </string>
+            <string name="bounds">22 170 38 247 </string>
+          </object>
+          <object class="IBCarbonEditText" id="217">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">1</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="viewFrame">119 23 40 16 </string>
+            <string name="bounds">23 119 39 159 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="225">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">RmSp</ostype>
+            <string name="title">Remove spaces  ⌘E</string>
+            <string name="viewFrame">39 78 145 18 </string>
+            <string name="bounds">78 39 96 184 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="224">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Leave trailing space  ⌘G</string>
+            <string name="viewFrame">58 98 179 18 </string>
+            <string name="bounds">98 58 116 237 </string>
+          </object>
+          <object class="IBCarbonRadioGroup" id="222">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">5</int>
+            <int name="numRows">4</int>
+            <array count="4" name="radioTitles">
+              <array count="1">
+                <string>No indent  ⌘L</string>
+              </array>
+              <array count="1">
+                <string>Standard indent  ⌘S</string>
+              </array>
+              <array count="1">
+                <string>Reverse indent  ⌘R</string>
+              </array>
+              <array count="1">
+                <string>Increase indentation  ⌘I</string>
+              </array>
+            </array>
+            <string name="viewFrame">290 46 189 85 </string>
+            <string name="bounds">46 290 131 479 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="216">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">6</int>
+            <string name="title">Relative to first line  ⌘T</string>
+            <string name="viewFrame">290 139 178 18 </string>
+            <string name="bounds">139 290 157 468 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="218">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">4</int>
+            <string name="title">Paragraph fill  ⌘P</string>
+            <string name="viewFrame">39 139 135 18 </string>
+            <string name="bounds">139 39 157 174 </string>
+          </object>
+          <object class="IBCarbonButton" id="221">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">501</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">316 177 80 20 </string>
+            <string name="bounds">177 316 197 396 </string>
+          </object>
+          <object class="IBCarbonButton" id="212">
+            <ostype name="controlSignature">ReWr</ostype>
+            <int name="controlID">500</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Rewrap</string>
+            <string name="viewFrame">408 177 80 20 </string>
+            <string name="bounds">177 408 197 488 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 217 508 </string>
+      </object>
+      <string name="windowRect">428 469 645 977 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="217"/>
+    <reference idRef="212"/>
+    <reference idRef="220"/>
+    <reference idRef="222"/>
+    <reference idRef="221"/>
+    <reference idRef="227"/>
+    <reference idRef="225"/>
+    <reference idRef="226"/>
+    <reference idRef="224"/>
+    <reference idRef="216"/>
+    <reference idRef="218"/>
+    <reference idRef="215"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="220"/>
+    <reference idRef="1"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="219"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+    <reference idRef="220"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Rewrap</string>
+    <reference idRef="219"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">229</unsigned_int>
+</object>

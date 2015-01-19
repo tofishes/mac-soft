@@ -1,0 +1,246 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="21" name="allObjects">
+    <object class="IBCarbonEditText" id="185">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">17</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">191 160 285 16 </string>
+      <string name="bounds">332 211 348 496 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="182">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">3</int>
+      <string name="title">Numbers match by value  ⌃V</string>
+      <string name="viewFrame">32 50 209 18 </string>
+      <string name="bounds">50 32 68 241 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="177">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">6</int>
+      <ostype name="command">OutT</ostype>
+      <string name="title">Duplicates to new document  ⌘2</string>
+      <string name="viewFrame">274 76 233 18 </string>
+      <string name="bounds">76 274 94 507 </string>
+    </object>
+    <object class="IBCarbonButton" id="171">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">343 387 80 20 </string>
+      <string name="bounds">387 343 407 423 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="176">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">8</int>
+      <ostype name="command">UCLP</ostype>
+      <string name="title">Unique lines to clipboard  ⌘4</string>
+      <string name="viewFrame">274 128 218 18 </string>
+      <string name="bounds">128 274 146 492 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="178">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">9</int>
+      <ostype name="command">OutT</ostype>
+      <string name="title">Unique lines to new document  ⌘5</string>
+      <string name="viewFrame">274 154 248 18 </string>
+      <string name="bounds">154 274 172 522 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="196">
+      <string name="title">dummy item</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonButton" id="170">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">500</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Process</string>
+      <string name="viewFrame">435 387 80 20 </string>
+      <string name="bounds">387 435 407 515 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="175">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">DCLP</ostype>
+      <string name="title">Duplicates to clipboard  ⌘1</string>
+      <string name="viewFrame">274 50 218 18 </string>
+      <string name="bounds">50 274 68 492 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="197">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">11</int>
+      <object name="menu" class="IBCarbonMenu" id="195">
+        <string name="title">Popup:</string>
+        <array count="1" name="items">
+          <reference idRef="196"/>
+        </array>
+      </object>
+      <string name="title">Searching pattern:</string>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">16 33 144 20 </string>
+      <string name="bounds">205 36 225 180 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="193">
+      <ostype name="controlSignature">PDLi</ostype>
+      <int name="controlID">19</int>
+      <string name="title">Match Using:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">36 88 120 16 </string>
+      <string name="bounds">260 56 276 176 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="169">
+      <string name="viewFrame">0 0 535 427 </string>
+      <array count="11" name="subviews">
+        <object class="IBCarbonRadioGroup" id="202">
+          <ostype name="controlSignature">PDLi</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">Mtch</ostype>
+          <int name="numRows">1</int>
+          <int name="numCols">2</int>
+          <array count="1" name="radioTitles">
+            <array count="2">
+              <string>Leaving one  ⌃1</string>
+              <string>Matching all  ⌃2</string>
+            </array>
+          </array>
+          <string name="viewFrame">20 20 281 22 </string>
+          <string name="bounds">20 20 42 301 </string>
+        </object>
+        <reference idRef="182"/>
+        <object class="IBCarbonCheckBox" id="180">
+          <ostype name="controlSignature">PDLi</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Ignore leading white space  ⌃I</string>
+          <string name="viewFrame">32 76 219 18 </string>
+          <string name="bounds">76 32 94 251 </string>
+        </object>
+        <reference idRef="175"/>
+        <reference idRef="177"/>
+        <object class="IBCarbonCheckBox" id="174">
+          <ostype name="controlSignature">PDLi</ostype>
+          <int name="controlID">7</int>
+          <ostype name="command">OutT</ostype>
+          <string name="title">Delete duplicate lines  ⌘3</string>
+          <string name="viewFrame">274 102 218 18 </string>
+          <string name="bounds">102 274 120 492 </string>
+        </object>
+        <reference idRef="176"/>
+        <reference idRef="178"/>
+        <object class="IBCarbonGroupBox" id="198">
+          <ostype name="controlSignature">PDLi</ostype>
+          <int name="controlID">10</int>
+          <ostype name="command">GTog</ostype>
+          <string name="title">Match using pattern  ⌘P</string>
+          <int name="titleType">1</int>
+          <string name="viewFrame">20 172 495 195 </string>
+          <array count="6" name="subviews">
+            <reference idRef="193"/>
+            <object class="IBCarbonEditText" id="184">
+              <ostype name="controlSignature">PDLi</ostype>
+              <int name="controlID">12</int>
+              <boolean name="isUnicode">TRUE</boolean>
+              <boolean name="isSingleLine">TRUE</boolean>
+              <string name="viewFrame">167 35 309 16 </string>
+              <string name="bounds">207 187 223 496 </string>
+            </object>
+            <reference idRef="185"/>
+            <reference idRef="197"/>
+            <object class="IBCarbonCheckBox" id="200">
+              <ostype name="controlSignature">PDLi</ostype>
+              <int name="controlID">13</int>
+              <string name="title">Case sensitive</string>
+              <string name="viewFrame">164 62 110 18 </string>
+              <string name="bounds">234 184 252 294 </string>
+            </object>
+            <object class="IBCarbonRadioGroup" id="203">
+              <ostype name="controlSignature">PDLi</ostype>
+              <int name="controlID">14</int>
+              <int name="numRows">3</int>
+              <array count="3" name="radioTitles">
+                <array count="1">
+                  <string>Entire match</string>
+                </array>
+                <array count="1">
+                  <string>All sub-patterns (\1\2…\N)</string>
+                </array>
+                <array count="1">
+                  <string>Specific sub-patterns:</string>
+                </array>
+              </array>
+              <string name="viewFrame">164 90 216 68 </string>
+              <string name="bounds">262 184 330 400 </string>
+            </object>
+          </array>
+          <string name="bounds">172 20 367 515 </string>
+        </object>
+        <reference idRef="171"/>
+        <reference idRef="170"/>
+      </array>
+      <string name="bounds">0 0 427 535 </string>
+    </object>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Process Duplicate Lines</string>
+      <reference name="rootControl" idRef="169"/>
+      <string name="windowRect">100 100 527 635 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="195"/>
+    <reference idRef="180"/>
+    <reference idRef="174"/>
+    <reference idRef="198"/>
+    <reference idRef="202"/>
+    <reference idRef="200"/>
+    <reference idRef="203"/>
+    <reference idRef="184"/>
+  </array>
+  <array count="21" name="allParents">
+    <reference idRef="198"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="195"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="168"/>
+    <reference idRef="1"/>
+    <reference idRef="197"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ProcessDuplicates</string>
+    <reference idRef="168"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">205</unsigned_int>
+</object>

@@ -1,0 +1,209 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="16" name="allObjects">
+    <object class="IBCarbonCheckBox" id="187">
+      <ostype name="controlSignature">HexD</ostype>
+      <int name="controlID">8</int>
+      <string name="title">Control characters (ASCII &lt; 32)  ⌘K</string>
+      <string name="viewFrame">154 233 249 18 </string>
+      <string name="bounds">233 154 251 403 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="189">
+      <int name="controlID">20</int>
+      <string name="title">rows.</string>
+      <string name="viewFrame">327 193 41 16 </string>
+      <string name="bounds">193 327 209 368 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="169">
+      <string name="viewFrame">0 0 480 334 </string>
+      <array count="14" name="subviews">
+        <reference idRef="189"/>
+        <object class="IBCarbonStaticText" id="191">
+          <int name="controlID">22</int>
+          <string name="title">Output options:</string>
+          <string name="viewFrame">20 144 112 16 </string>
+          <string name="bounds">144 20 160 132 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="193">
+          <int name="controlID">24</int>
+          <string name="title">Use ‘.’ in place of:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">24 233 122 16 </string>
+          <string name="bounds">233 24 249 146 </string>
+        </object>
+        <object class="IBCarbonHIView" id="220">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">2</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+          </object>
+          <string name="classID">com.barebones.XTFileWellView</string>
+          <string name="viewFrame">20 44 312 80 </string>
+          <string name="bounds">44 20 124 332 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="192">
+          <int name="controlID">23</int>
+          <string name="title">Bytes per row:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">46 169 100 16 </string>
+          <string name="bounds">169 46 185 146 </string>
+        </object>
+        <object class="IBCarbonButton" id="170">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">500</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Dump</string>
+          <string name="viewFrame">380 294 80 20 </string>
+          <string name="bounds">294 380 314 460 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="223">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">4</int>
+          <ostype name="command">Fork</ostype>
+          <int name="numRows">1</int>
+          <int name="numCols">2</int>
+          <array count="1" name="radioTitles">
+            <array count="2">
+              <string>Data fork  ⌘D</string>
+              <string>Resource fork  ⌘R</string>
+            </array>
+          </array>
+          <string name="viewFrame">20 18 304 18 </string>
+          <string name="bounds">18 20 36 324 </string>
+        </object>
+        <object class="IBCarbonButton" id="221">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">3</int>
+          <ostype name="command">open</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="title">Choose…  ⌘O</string>
+          <string name="viewFrame">340 44 120 20 </string>
+          <string name="bounds">44 340 64 460 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="224">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">5</int>
+          <ostype name="command">BPRg</ostype>
+          <int name="numRows">1</int>
+          <int name="numCols">4</int>
+          <array count="1" name="radioTitles">
+            <array count="4">
+              <string>8</string>
+              <string>16</string>
+              <string>24</string>
+              <string>32</string>
+            </array>
+          </array>
+          <string name="viewFrame">154 168 173 18 </string>
+          <string name="bounds">168 154 186 327 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="186">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">6</int>
+          <string name="title">Blank line every:</string>
+          <string name="viewFrame">20 192 126 18 </string>
+          <string name="bounds">192 20 210 146 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="225">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">7</int>
+          <ostype name="command">BLEg</ostype>
+          <int name="numRows">1</int>
+          <int name="numCols">4</int>
+          <array count="1" name="radioTitles">
+            <array count="4">
+              <string>8</string>
+              <string>16</string>
+              <string>24</string>
+              <string>32</string>
+            </array>
+          </array>
+          <string name="viewFrame">154 192 173 18 </string>
+          <string name="bounds">192 154 210 327 </string>
+        </object>
+        <reference idRef="187"/>
+        <object class="IBCarbonCheckBox" id="188">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">9</int>
+          <string name="title">8-bit characters (ASCII &gt; 127)  ⌘8</string>
+          <string name="viewFrame">154 257 242 18 </string>
+          <string name="bounds">257 154 275 396 </string>
+        </object>
+        <object class="IBCarbonButton" id="171">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">501</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">288 294 80 20 </string>
+          <string name="bounds">294 288 314 368 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 334 480 </string>
+    </object>
+    <reference idRef="224"/>
+    <reference idRef="193"/>
+    <reference idRef="225"/>
+    <reference idRef="191"/>
+    <reference idRef="171"/>
+    <reference idRef="170"/>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Hex Dump File</string>
+      <reference name="rootControl" idRef="169"/>
+      <string name="windowRect">348 23 682 503 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="188"/>
+    <reference idRef="192"/>
+    <reference idRef="220"/>
+    <reference idRef="223"/>
+    <reference idRef="221"/>
+    <reference idRef="186"/>
+  </array>
+  <array count="16" name="allParents">
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="168"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="1"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>HexDumpFile</string>
+    <reference idRef="168"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">266</unsigned_int>
+</object>

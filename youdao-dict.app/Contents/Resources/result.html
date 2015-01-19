@@ -1,0 +1,95 @@
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./common.js"></script>
+<link rel="stylesheet" href="./main.css" type="text/css"/> 
+<link href="./dict4-mac.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" language="JavaScript">
+  function decode(str) {
+     return decodeURIComponent(str)
+  }
+  jQuery(function($) {
+	$('#suggest_row').live("click", function(){ dosearch($(this).data('log')) })
+	
+	$('#webtrans_row').live("click", function(){ dosearch($(this).data('log')) })
+	$('.wt-container a').live("click", function(){ 
+		if ($(this).parent().parent().attr('class').match(/\bwt-collapse/))
+		{
+			$(this).parent().parent().removeClass('wt-collapse')
+		}
+		else
+		{
+			$(this).parent().parent().addClass('wt-collapse')
+		}
+	})
+	$(".synoword").live('click', function(){
+		dosearch($(this).data('word'));
+	});
+	$("#eBaike .toggleOpen,#examples .toggleOpen,#webTrans .toggleOpen,#simpleTrans .toggleOpen,#synos .toggleOpen").live('click', function(){
+		var id = $(this).attr('rel');
+		$(this).removeClass('toggleOpen');
+		$(this).addClass('toggleClose');
+		$(id).slideUp();
+	})
+	$("#eBaike .toggleClose,#examples .toggleClose,#examples .toggleClose,#webTrans .toggleClose,#simpleTrans .toggleClose,#synos .toggleClose").live('click', function(){
+		var id = $(this).attr('rel');
+		$(this).removeClass('toggleClose');
+		$(this).addClass('toggleOpen');
+		$(id).slideDown();
+	})
+	$(".dictvoice").live('click', function(){
+        var src ="http://dict.youdao.com/dictvoice?audio=" + $(this).data('speech') ;
+        var speech = new Audio(src);
+        speech.play()
+	})
+	$(".bklink").live('click', function(){
+		link = $(this).attr('href')
+		
+		if (link.indexOf('app:bk:') != -1)
+		{
+                      if (link.indexOf('&wikisearch') != -1) {
+                      link = link.substr(4);
+                      dosearch(decode(link));
+                      } else {
+            link = link.substr(7)
+			dosearch(decode(link));
+                      }
+		}
+		else {
+			goURL(link);
+		}
+		
+	})
+	$("#eBaikeToggle .see_more").live('click', function(){
+		goTab('baike', $(this).data('word'));
+		scroll(0,0);
+	})
+	
+	$("#examplesToggle .more").live('click', function(){
+		goTab('liju', $(this).data('word'));
+		scroll(0,0);
+	})
+  });
+ 
+</script>
+
+<script type="text/javascript">
+
+</script>
+</head>
+
+<body style="" >
+<div id="actionTips" style="display:none">
+<div class="at-container">正在加载...</div>
+</div>
+<div id="suggest" style="display:none"></div>
+<div id="result">
+<pre style="height:90%;color:black">
+
+</pre>
+</div>
+ 
+</body>
+</html>

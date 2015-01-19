@@ -1,0 +1,41 @@
+#trans{
+    padding-left: 10px;
+}
+
+#title{
+    color:#444;
+}
+
+#lj{
+	margin-top : 2px;
+	padding-left: 10px;
+}
+
+#ljtrans{
+	margin-top : 2px;
+	padding-left: 10px;
+	color:#666;
+}
+
+hr{ height:1px;border:none;border-top:1px solid #222;}
+
+.synoword { cursor:hand; }
+
+#blank p {position:absolute;margin:0;}
+.bkbackgroundt{z-index:2;width:200px;height:50px;background:url(./baike.jpg) no-repeat;}
+.bkbackgroundp{width:522px;height:310px;right:0;bottom:0;background:url(./baike.jpg) no-repeat;background-position:right bottom;}
+
+.ljbackgroundt{z-index:2;width:200px;height:50px;background:url(./lj.jpg) no-repeat;}
+.ljbackgroundp{width:522px;height:310px;right:0;bottom:0;background:url(./lj.jpg) no-repeat;background-position:right bottom;}
+
+.frame {position:relative; background:#fff; padding:5px; display:block;
+-moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+-webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+#networkerr {padding-left:10px}
+.bksubtitle {font-size:15px;}
+
+.bklink {text-decoration:  none;}
+

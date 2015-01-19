@@ -1,0 +1,167 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonRootControl" id="19">
+      <string name="viewFrame">0 0 451 220 </string>
+      <array count="12" name="subviews">
+        <object class="IBCarbonButton" id="23">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <int name="iconPosition">0</int>
+          <string name="title">Run</string>
+          <string name="viewFrame">351 180 80 20 </string>
+          <string name="bounds">180 351 200 431 </string>
+        </object>
+        <object class="IBCarbonButton" id="22">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <int name="iconPosition">0</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">259 180 80 20 </string>
+          <string name="bounds">180 259 200 339 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="28">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">5</int>
+          <string name="title">Use debugger</string>
+          <string name="viewFrame">18 20 108 18 </string>
+          <string name="bounds">20 18 38 126 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="29">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">6</int>
+          <string name="title">Run in Terminal</string>
+          <string name="viewFrame">18 44 121 18 </string>
+          <string name="bounds">44 18 62 139 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="21">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">9</int>
+          <string name="title">Clear before writing</string>
+          <string name="viewFrame">285 118 146 18 </string>
+          <string name="bounds">118 285 136 431 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="20">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">10</int>
+          <string name="title">Save after writing</string>
+          <string name="viewFrame">285 142 130 18 </string>
+          <string name="bounds">142 285 160 415 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="27">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">7</int>
+          <string name="title">chdir to script’s folder</string>
+          <string name="viewFrame">18 68 161 18 </string>
+          <string name="bounds">68 18 86 179 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="25">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">8</int>
+          <ostype name="command">OutM</ostype>
+          <int name="numRows">3</int>
+          <int name="selectedRow">2</int>
+          <int name="intercellHeight">1</int>
+          <array count="3" name="radioTitles">
+            <array count="1">
+              <string>Unix Script Output</string>
+            </array>
+            <array count="1">
+              <string>New window</string>
+            </array>
+            <array count="1">
+              <string>Window-specific log file name</string>
+            </array>
+          </array>
+          <string name="viewFrame">32 118 211 56 </string>
+          <string name="bounds">118 32 174 243 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="26">
+          <string name="title">Output to:</string>
+          <string name="viewFrame">20 94 78 16 </string>
+          <string name="bounds">94 20 110 98 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="24">
+          <string name="title">Output options:</string>
+          <string name="viewFrame">275 94 100 16 </string>
+          <string name="bounds">94 275 110 375 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="32">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">12</int>
+          <string name="title">Run selection only</string>
+          <string name="viewFrame">273 20 136 18 </string>
+          <string name="bounds">20 273 38 409 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="33">
+          <ostype name="controlSignature">#!RS</ostype>
+          <int name="controlID">11</int>
+          <string name="title">Save before running</string>
+          <string name="viewFrame">273 44 147 18 </string>
+          <string name="bounds">44 273 62 420 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 220 451 </string>
+    </object>
+    <reference idRef="22"/>
+    <object class="IBCarbonWindow" id="18">
+      <boolean name="autoDragTracking">TRUE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Run a Script</string>
+      <reference name="rootControl" idRef="19"/>
+      <unsigned_int name="WindowRods">15</unsigned_int>
+      <string name="windowRect">300 300 520 751 </string>
+      <string name="ScreenRectAtEncodeTime">91 0 1028 1680 </string>
+    </object>
+    <reference idRef="29"/>
+    <reference idRef="24"/>
+    <reference idRef="33"/>
+    <reference idRef="28"/>
+    <reference idRef="20"/>
+    <reference idRef="25"/>
+    <reference idRef="23"/>
+    <reference idRef="27"/>
+    <reference idRef="21"/>
+    <reference idRef="26"/>
+    <reference idRef="32"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="18"/>
+    <reference idRef="19"/>
+    <reference idRef="1"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+    <reference idRef="19"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>RunUnixScriptWindow</string>
+    <reference idRef="18"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">34</unsigned_int>
+</object>

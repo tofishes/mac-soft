@@ -1,0 +1,144 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonRadioGroup" id="504">
+      <ostype name="controlSignature">Crea</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">Fil?</ostype>
+      <int name="numRows">1</int>
+      <int name="numCols">2</int>
+      <int name="intercellHeight">1</int>
+      <array count="1" name="radioTitles">
+        <array count="2">
+          <string>File</string>
+          <string>Folder</string>
+        </array>
+      </array>
+      <string name="viewFrame">93 12 153 18 </string>
+      <string name="bounds">12 93 30 246 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="507">
+      <string name="title">Named:</string>
+      <string name="viewFrame">25 41 60 16 </string>
+      <string name="bounds">41 25 57 85 </string>
+    </object>
+    <object class="IBCarbonWindow" id="500">
+      <boolean name="autoDragTracking">TRUE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <object name="rootControl" class="IBCarbonRootControl" id="501">
+        <string name="viewFrame">0 0 517 108 </string>
+        <array count="9" name="subviews">
+          <object class="IBCarbonEditText" id="505">
+            <ostype name="controlSignature">Crea</ostype>
+            <int name="controlID">4</int>
+            <ostype name="command">Name</ostype>
+            <boolean name="useInlineInput">TRUE</boolean>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="foreColor">0 0 0 </string>
+            <string name="viewFrame">96 41 398 16 </string>
+            <string name="bounds">41 96 57 494 </string>
+          </object>
+          <reference idRef="504"/>
+          <object class="IBCarbonStaticText" id="506">
+            <string name="title">Create a:</string>
+            <int name="justification">-2</int>
+            <string name="viewFrame">25 13 60 16 </string>
+            <string name="bounds">13 25 29 85 </string>
+          </object>
+          <reference idRef="507"/>
+          <object class="IBCarbonStaticText" id="508">
+            <ostype name="controlSignature">Crea</ostype>
+            <int name="controlID">5</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">An item with this name already exists.</string>
+            <string name="viewFrame">122 70 205 13 </string>
+            <string name="bounds">70 122 83 327 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="510">
+            <ostype name="controlSignature">Crea</ostype>
+            <int name="controlID">7</int>
+            <int name="fontStyle">-2</int>
+            <string name="title">Item names cannot contain slashes.</string>
+            <string name="viewFrame">122 71 205 13 </string>
+            <string name="bounds">71 122 84 327 </string>
+          </object>
+          <object class="IBCarbonIcon" id="509">
+            <ostype name="controlSignature">Crea</ostype>
+            <int name="controlID">6</int>
+            <int name="contentType">4</int>
+            <int name="contentResID">2</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">93 70 16 16 </string>
+            <string name="bounds">70 93 86 109 </string>
+          </object>
+          <object class="IBCarbonButton" id="502">
+            <ostype name="controlSignature">Crea</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Create</string>
+            <string name="viewFrame">427 68 70 20 </string>
+            <string name="bounds">68 427 88 497 </string>
+          </object>
+          <object class="IBCarbonButton" id="503">
+            <ostype name="controlSignature">Crea</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">345 68 70 20 </string>
+            <string name="bounds">68 345 88 415 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 108 517 </string>
+      </object>
+      <string name="windowRect">100 100 208 617 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+      <int name="WindowMaxWidth">0</int>
+      <int name="WindowMaxHeight">0</int>
+    </object>
+    <reference idRef="510"/>
+    <reference idRef="501"/>
+    <reference idRef="505"/>
+    <reference idRef="508"/>
+    <reference idRef="502"/>
+    <reference idRef="509"/>
+    <reference idRef="506"/>
+    <reference idRef="503"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="501"/>
+    <reference idRef="501"/>
+    <reference idRef="1"/>
+    <reference idRef="501"/>
+    <reference idRef="500"/>
+    <reference idRef="501"/>
+    <reference idRef="501"/>
+    <reference idRef="501"/>
+    <reference idRef="501"/>
+    <reference idRef="501"/>
+    <reference idRef="501"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>FTPCreateItem</string>
+    <reference idRef="500"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">540</unsigned_int>
+</object>

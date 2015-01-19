@@ -1,0 +1,162 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="18" name="allObjects">
+    <object class="IBCarbonMenuItem" id="586">
+      <string name="title">Item 2</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonStaticText" id="573">
+      <int name="controlID">9</int>
+      <string name="title">spaces</string>
+      <string name="viewFrame">234 62 56 16 </string>
+      <string name="bounds">62 234 78 290 </string>
+    </object>
+    <object class="IBCarbonEditText" id="569">
+      <int name="controlID">5</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">82 63 39 16 </string>
+      <string name="bounds">63 82 79 121 </string>
+    </object>
+    <object class="IBCarbonWindow" id="563">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Font &amp; Tabs</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="564">
+        <string name="viewFrame">0 0 310 138 </string>
+        <array count="8" name="subviews">
+          <object class="IBCarbonButton" id="565">
+            <int name="controlID">1</int>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">210 98 80 20 </string>
+            <string name="bounds">98 210 118 290 </string>
+          </object>
+          <object class="IBCarbonButton" id="566">
+            <int name="controlID">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">118 98 80 20 </string>
+            <string name="bounds">98 118 118 198 </string>
+          </object>
+          <reference idRef="569"/>
+          <object class="IBCarbonEditText" id="570">
+            <int name="controlID">6</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="viewFrame">183 63 40 16 </string>
+            <string name="bounds">63 183 79 223 </string>
+          </object>
+          <reference idRef="573"/>
+          <object class="IBCarbonStaticText" id="574">
+            <int name="controlID">10</int>
+            <string name="title">Tabs:</string>
+            <int name="justification">-1</int>
+            <string name="viewFrame">136 62 36 16 </string>
+            <string name="bounds">62 136 78 172 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="579">
+            <object name="menu" class="IBCarbonMenu" id="580">
+              <string name="title">Popup:</string>
+              <array count="3" name="items">
+                <object class="IBCarbonMenuItem" id="578">
+                  <string name="title">Item 1</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="577">
+                  <string name="title">Item 2</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <object class="IBCarbonMenuItem" id="581">
+                  <string name="title">Item 3</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+              </array>
+            </object>
+            <string name="title">Font:</string>
+            <int name="titleJustification">-2</int>
+            <string name="viewFrame">20 20 270 20 </string>
+            <string name="bounds">20 20 40 290 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="585">
+            <object name="menu" class="IBCarbonMenu" id="583">
+              <string name="title">Popup:</string>
+              <array count="3" name="items">
+                <object class="IBCarbonMenuItem" id="582">
+                  <string name="title">Item 1</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+                <reference idRef="586"/>
+                <object class="IBCarbonMenuItem" id="584">
+                  <string name="title">Item 3</string>
+                  <boolean name="updateSingleItem">TRUE</boolean>
+                </object>
+              </array>
+            </object>
+            <string name="title">Size</string>
+            <int name="titleJustification">-2</int>
+            <string name="viewFrame">20 61 54 20 </string>
+            <string name="bounds">61 20 81 74 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 138 310 </string>
+      </object>
+      <string name="windowRect">100 100 238 410 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="564"/>
+    <reference idRef="583"/>
+    <reference idRef="578"/>
+    <reference idRef="584"/>
+    <reference idRef="574"/>
+    <reference idRef="570"/>
+    <reference idRef="577"/>
+    <reference idRef="582"/>
+    <reference idRef="579"/>
+    <reference idRef="585"/>
+    <reference idRef="566"/>
+    <reference idRef="565"/>
+    <reference idRef="581"/>
+    <reference idRef="580"/>
+  </array>
+  <array count="18" name="allParents">
+    <reference idRef="583"/>
+    <reference idRef="564"/>
+    <reference idRef="564"/>
+    <reference idRef="1"/>
+    <reference idRef="563"/>
+    <reference idRef="585"/>
+    <reference idRef="580"/>
+    <reference idRef="583"/>
+    <reference idRef="564"/>
+    <reference idRef="564"/>
+    <reference idRef="580"/>
+    <reference idRef="583"/>
+    <reference idRef="564"/>
+    <reference idRef="564"/>
+    <reference idRef="564"/>
+    <reference idRef="564"/>
+    <reference idRef="580"/>
+    <reference idRef="579"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Font &amp; Tab</string>
+    <reference idRef="563"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">588</unsigned_int>
+</object>

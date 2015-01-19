@@ -1,0 +1,149 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonButton" id="280">
+      <ostype name="controlSignature">MPTS</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">LvOp</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">Leave Open</string>
+      <string name="viewFrame">195 104 100 20 </string>
+      <string name="bounds">104 195 124 295 </string>
+    </object>
+    <object class="IBCarbonWindow" id="215">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="209">
+        <string name="viewFrame">0 0 539 144 </string>
+        <array count="7" name="subviews">
+          <object class="IBCarbonButton" id="217">
+            <ostype name="controlSignature">MPTS</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">Save</string>
+            <string name="viewFrame">419 104 100 20 </string>
+            <string name="bounds">104 419 124 519 </string>
+          </object>
+          <object class="IBCarbonButton" id="278">
+            <ostype name="controlSignature">MPTS</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">307 104 100 20 </string>
+            <string name="bounds">104 307 124 407 </string>
+          </object>
+          <object class="IBCarbonButton" id="279">
+            <ostype name="controlSignature">MPTS</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">NoSv</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="title">Don’t Save</string>
+            <string name="viewFrame">20 104 100 20 </string>
+            <string name="bounds">104 20 124 120 </string>
+          </object>
+          <reference idRef="280"/>
+          <object class="IBCarbonIcon" id="286">
+            <ostype name="controlSignature">MPTS</ostype>
+            <int name="controlID">7</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+            </object>
+            <int name="contentType">132</int>
+            <int name="contentResID">1095782476</int>
+            <int name="creator">0</int>
+            <string name="viewFrame">20 20 64 64 </string>
+            <string name="bounds">20 20 84 84 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="287">
+            <ostype name="controlSignature">MPTS</ostype>
+            <int name="controlID">5</int>
+            <int name="fontStyle">4</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="title">“%@” has been changed.</string>
+            <string name="viewFrame">108 20 411 32 </string>
+            <string name="bounds">20 108 52 519 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="288">
+            <ostype name="controlSignature">MPTS</ostype>
+            <int name="controlID">6</int>
+            <int name="controlSize">1</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="title">Save changes before continuing?</string>
+            <string name="viewFrame">108 60 411 13 </string>
+            <string name="bounds">60 108 73 519 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 144 539 </string>
+      </object>
+      <string name="windowRect">170 447 314 986 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="287"/>
+    <reference idRef="279"/>
+    <reference idRef="209"/>
+    <reference idRef="288"/>
+    <reference idRef="286"/>
+    <reference idRef="217"/>
+    <reference idRef="278"/>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="209"/>
+    <reference idRef="1"/>
+    <reference idRef="209"/>
+    <reference idRef="209"/>
+    <reference idRef="215"/>
+    <reference idRef="209"/>
+    <reference idRef="209"/>
+    <reference idRef="209"/>
+    <reference idRef="209"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>ConfirmSave</string>
+    <reference idRef="215"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">297</unsigned_int>
+</object>

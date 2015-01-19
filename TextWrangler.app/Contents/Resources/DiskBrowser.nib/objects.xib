@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="8" name="allObjects">
+    <object class="IBCarbonRootControl" id="169">
+      <string name="viewFrame">0 0 505 102 </string>
+      <array count="6" name="subviews">
+        <object class="IBCarbonEditText" id="176">
+          <ostype name="controlSignature">SvCl</ostype>
+          <int name="controlID">3</int>
+          <ostype name="command">Name</ostype>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="viewFrame">78 23 404 16 </string>
+          <string name="bounds">23 78 39 482 </string>
+        </object>
+        <object class="IBCarbonButton" id="178">
+          <ostype name="controlSignature">SvCl</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Create</string>
+          <string name="viewFrame">415 62 70 20 </string>
+          <string name="bounds">62 415 82 485 </string>
+        </object>
+        <object class="IBCarbonButton" id="177">
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">333 62 70 20 </string>
+          <string name="bounds">62 333 82 403 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="172">
+          <string name="title">Name:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">20 22 47 16 </string>
+          <string name="bounds">22 20 38 67 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="171">
+          <ostype name="controlSignature">SvCl</ostype>
+          <int name="controlID">7</int>
+          <int name="controlSize">1</int>
+          <string name="title">An item with this name already exists.</string>
+          <string name="viewFrame">75 59 216 13 </string>
+          <string name="bounds">59 75 72 291 </string>
+        </object>
+        <object class="IBCarbonIcon" id="170">
+          <ostype name="controlSignature">SvCl</ostype>
+          <int name="controlID">8</int>
+          <int name="contentType">132</int>
+          <int name="contentResID">1667331444</int>
+          <int name="creator">0</int>
+          <string name="viewFrame">32 50 32 32 </string>
+          <string name="bounds">50 32 82 64 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 102 505 </string>
+    </object>
+    <reference idRef="171"/>
+    <reference idRef="178"/>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">New File/Folder</string>
+      <reference name="rootControl" idRef="169"/>
+      <string name="windowRect">100 100 202 605 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="176"/>
+    <reference idRef="172"/>
+    <reference idRef="177"/>
+    <reference idRef="170"/>
+  </array>
+  <array count="8" name="allParents">
+    <reference idRef="168"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="1"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>CreateFileOrFolder</string>
+    <reference idRef="168"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">184</unsigned_int>
+</object>

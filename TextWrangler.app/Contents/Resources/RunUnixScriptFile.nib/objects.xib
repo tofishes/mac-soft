@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonStaticText" id="16">
+      <string name="title">Output to:</string>
+      <string name="viewFrame">20 127 78 16 </string>
+      <string name="bounds">127 20 143 98 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="10">
+      <ostype name="controlSignature">#!RS</ostype>
+      <int name="controlID">5</int>
+      <string name="title">Use debugger</string>
+      <string name="viewFrame">18 77 108 18 </string>
+      <string name="bounds">77 18 95 126 </string>
+    </object>
+    <object class="IBCarbonCustom" id="9">
+      <ostype name="controlSignature">#!RS</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">ChFl</ostype>
+      <string name="classID">com.barebones.XTFileWellView</string>
+      <null name="title"/>
+      <string name="viewFrame">20 20 352 49 </string>
+      <string name="bounds">20 20 69 372 </string>
+    </object>
+    <object class="IBCarbonWindow" id="3">
+      <boolean name="autoDragTracking">TRUE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Run a Script</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="4">
+        <string name="viewFrame">0 0 484 253 </string>
+        <array count="12" name="subviews">
+          <object class="IBCarbonButton" id="5">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Run</string>
+            <string name="viewFrame">384 213 80 20 </string>
+            <string name="bounds">213 384 233 464 </string>
+          </object>
+          <object class="IBCarbonButton" id="6">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">292 213 80 20 </string>
+            <string name="bounds">213 292 233 372 </string>
+          </object>
+          <object class="IBCarbonButton" id="7">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">ChFl</ostype>
+            <int name="iconPosition">0</int>
+            <string name="title">File…</string>
+            <string name="viewFrame">384 34 80 20 </string>
+            <string name="bounds">34 384 54 464 </string>
+          </object>
+          <reference idRef="9"/>
+          <reference idRef="10"/>
+          <object class="IBCarbonCheckBox" id="11">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">6</int>
+            <string name="title">Run in Terminal</string>
+            <string name="viewFrame">18 101 121 18 </string>
+            <string name="bounds">101 18 119 139 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="14">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">9</int>
+            <string name="title">Clear before writing</string>
+            <string name="viewFrame">302 151 146 18 </string>
+            <string name="bounds">151 302 169 448 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="15">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">10</int>
+            <string name="title">Save after writing</string>
+            <string name="viewFrame">302 175 130 18 </string>
+            <string name="bounds">175 302 193 432 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="12">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">7</int>
+            <string name="title">chdir to script’s folder</string>
+            <string name="viewFrame">290 77 161 18 </string>
+            <string name="bounds">77 290 95 451 </string>
+          </object>
+          <object class="IBCarbonRadioGroup" id="13">
+            <ostype name="controlSignature">#!RS</ostype>
+            <int name="controlID">8</int>
+            <ostype name="command">OutM</ostype>
+            <int name="numRows">3</int>
+            <int name="selectedRow">2</int>
+            <int name="intercellHeight">1</int>
+            <array count="3" name="radioTitles">
+              <array count="1">
+                <string>Unix Script Output</string>
+              </array>
+              <array count="1">
+                <string>New window</string>
+              </array>
+              <array count="1">
+                <string>Window-specific log file name</string>
+              </array>
+            </array>
+            <string name="viewFrame">32 151 211 56 </string>
+            <string name="bounds">151 32 207 243 </string>
+          </object>
+          <reference idRef="16"/>
+          <object class="IBCarbonStaticText" id="17">
+            <string name="title">Output options:</string>
+            <string name="viewFrame">292 127 100 16 </string>
+            <string name="bounds">127 292 143 392 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 253 484 </string>
+      </object>
+      <unsigned_int name="WindowRods">15</unsigned_int>
+      <string name="windowRect">300 300 553 784 </string>
+      <string name="ScreenRectAtEncodeTime">91 0 1028 1680 </string>
+    </object>
+    <reference idRef="7"/>
+    <reference idRef="14"/>
+    <reference idRef="15"/>
+    <reference idRef="17"/>
+    <reference idRef="13"/>
+    <reference idRef="4"/>
+    <reference idRef="6"/>
+    <reference idRef="11"/>
+    <reference idRef="12"/>
+    <reference idRef="5"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="1"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="3"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+    <reference idRef="4"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>RunUnixScriptFile</string>
+    <reference idRef="3"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">34</unsigned_int>
+</object>

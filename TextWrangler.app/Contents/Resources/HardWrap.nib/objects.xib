@@ -1,0 +1,151 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonCheckBox" id="196">
+      <ostype name="controlSignature">HdWr</ostype>
+      <int name="controlID">5</int>
+      <string name="title">Relative to first line  ⌘T</string>
+      <string name="viewFrame">265 112 178 18 </string>
+      <string name="bounds">112 265 130 443 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="194">
+      <ostype name="controlSignature">HdWr</ostype>
+      <int name="controlID">3</int>
+      <string name="title">Paragraph fill  ⌘P</string>
+      <string name="viewFrame">20 112 135 18 </string>
+      <string name="bounds">112 20 130 155 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="192">
+      <int name="controlID">18</int>
+      <string name="title">Paragraph indentation:</string>
+      <string name="viewFrame">253 20 183 16 </string>
+      <string name="bounds">20 253 36 436 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="182">
+      <int name="controlID">17</int>
+      <string name="title">Break lines at:</string>
+      <string name="viewFrame">20 20 107 16 </string>
+      <string name="bounds">20 20 36 127 </string>
+    </object>
+    <object class="IBCarbonEditText" id="188">
+      <ostype name="controlSignature">HdWr</ostype>
+      <int name="controlID">2</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">170 85 40 16 </string>
+      <string name="bounds">85 170 101 210 </string>
+    </object>
+    <object class="IBCarbonButton" id="189">
+      <ostype name="controlSignature">HdWr</ostype>
+      <int name="controlID">501</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">271 160 80 20 </string>
+      <string name="bounds">160 271 180 351 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="199">
+      <ostype name="controlSignature">HdWr</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">Wrap</ostype>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>Page guide</string>
+        </array>
+        <array count="1">
+          <string>Window width</string>
+        </array>
+        <array count="1">
+          <string>Character width:</string>
+        </array>
+      </array>
+      <string name="viewFrame">32 44 124 58 </string>
+      <string name="bounds">44 32 102 156 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="200">
+      <ostype name="controlSignature">HdWr</ostype>
+      <int name="controlID">4</int>
+      <int name="numRows">3</int>
+      <array count="3" name="radioTitles">
+        <array count="1">
+          <string>Flush left  ⌘L</string>
+        </array>
+        <array count="1">
+          <string>First line  ⌘F</string>
+        </array>
+        <array count="1">
+          <string>Reverse  ⌘R</string>
+        </array>
+      </array>
+      <string name="viewFrame">265 44 171 60 </string>
+      <string name="bounds">44 265 104 436 </string>
+    </object>
+    <object class="IBCarbonButton" id="193">
+      <ostype name="controlSignature">HdWr</ostype>
+      <int name="controlID">500</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Wrap</string>
+      <string name="viewFrame">363 160 80 20 </string>
+      <string name="bounds">160 363 180 443 </string>
+    </object>
+    <object class="IBCarbonWindow" id="197">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Hard Wrap</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="180">
+        <string name="viewFrame">0 0 463 200 </string>
+        <array count="9" name="subviews">
+          <reference idRef="182"/>
+          <reference idRef="192"/>
+          <reference idRef="188"/>
+          <reference idRef="199"/>
+          <reference idRef="200"/>
+          <reference idRef="194"/>
+          <reference idRef="196"/>
+          <reference idRef="189"/>
+          <reference idRef="193"/>
+        </array>
+        <string name="bounds">0 0 200 463 </string>
+      </object>
+      <string name="windowRect">100 100 300 563 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="180"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="1"/>
+    <reference idRef="197"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>HardWrap</string>
+    <reference idRef="197"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">202</unsigned_int>
+</object>

@@ -1,0 +1,248 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="24" name="allObjects">
+    <object class="IBCarbonButton" id="220">
+      <ostype name="controlSignature">EdOp</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">365 246 80 20 </string>
+      <string name="bounds">246 365 266 445 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="224">
+      <ostype name="controlSignature">EdOp</ostype>
+      <int name="controlID">3</int>
+      <string name="title">Use typographer’s quotes ⌘Q </string>
+      <string name="viewFrame">32 42 214 18 </string>
+      <string name="bounds">42 32 60 246 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="241">
+      <string name="title">Item 3</string>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonCheckBox" id="231">
+      <ostype name="controlSignature">EdOp</ostype>
+      <int name="controlID">11</int>
+      <string name="title">Tab stops  ⌘T</string>
+      <string name="viewFrame">285 152 154 18 </string>
+      <string name="bounds">152 285 170 439 </string>
+    </object>
+    <object class="IBCarbonEditText" id="235">
+      <ostype name="controlSignature">EdOp</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">Wdth</ostype>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">207 152 31 16 </string>
+      <string name="bounds">152 207 168 238 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="169">
+      <string name="viewFrame">0 0 465 286 </string>
+      <array count="18" name="subviews">
+        <reference idRef="220"/>
+        <object class="IBCarbonButton" id="221">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">273 246 80 20 </string>
+          <string name="bounds">246 273 266 353 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="222">
+          <string name="title">Editing Options:</string>
+          <string name="viewFrame">20 20 114 16 </string>
+          <string name="bounds">20 20 36 134 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="223">
+          <string name="title">Display:</string>
+          <string name="viewFrame">273 20 114 16 </string>
+          <string name="bounds">20 273 36 387 </string>
+        </object>
+        <reference idRef="224"/>
+        <object class="IBCarbonCheckBox" id="225">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Auto-expand tabs ⌘U</string>
+          <string name="viewFrame">32 64 176 18 </string>
+          <string name="bounds">64 32 82 208 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="226">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">5</int>
+          <ostype name="command">SfWr</ostype>
+          <string name="title">Soft wrap text  ⌘W</string>
+          <string name="viewFrame">32 86 176 18 </string>
+          <string name="bounds">86 32 104 208 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="227">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">6</int>
+          <ostype name="command">WMod</ostype>
+          <int name="numRows">3</int>
+          <array count="3" name="radioTitles">
+            <array count="1">
+              <string>to page guide</string>
+            </array>
+            <array count="1">
+              <string>to window width</string>
+            </array>
+            <array count="1">
+              <string>to character width:</string>
+            </array>
+          </array>
+          <string name="viewFrame">51 110 150 58 </string>
+          <string name="bounds">110 51 168 201 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="228">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">8</int>
+          <string name="title">Line numbers ⌘L</string>
+          <string name="viewFrame">285 42 154 18 </string>
+          <string name="bounds">42 285 60 439 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="229">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">9</int>
+          <string name="title">Tool bar ⌘S</string>
+          <string name="viewFrame">285 86 154 18 </string>
+          <string name="bounds">86 285 104 439 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="230">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">10</int>
+          <string name="title">Page guide ⌘P</string>
+          <string name="viewFrame">285 130 154 18 </string>
+          <string name="bounds">130 285 148 439 </string>
+        </object>
+        <reference idRef="231"/>
+        <object class="IBCarbonCheckBox" id="232">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">12</int>
+          <ostype name="command">ShIn</ostype>
+          <string name="title">Show invisibles  ⌘N</string>
+          <string name="viewFrame">285 174 154 18 </string>
+          <string name="bounds">174 285 192 439 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="233">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">13</int>
+          <string name="title">Show spaces  ⌘O</string>
+          <string name="viewFrame">305 196 140 18 </string>
+          <string name="bounds">196 305 214 445 </string>
+        </object>
+        <reference idRef="235"/>
+        <object class="IBCarbonCheckBox" id="236">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">14</int>
+          <string name="title">Navigation bar ⌘I</string>
+          <string name="viewFrame">285 108 154 18 </string>
+          <string name="bounds">108 285 126 439 </string>
+        </object>
+        <object class="IBCarbonPopupButton" id="240">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">15</int>
+          <ostype name="command">SoLn</ostype>
+          <object name="menu" class="IBCarbonMenu" id="238">
+            <string name="title">Popup:</string>
+            <array count="3" name="items">
+              <object class="IBCarbonMenuItem" id="239">
+                <string name="title">Item 1</string>
+                <boolean name="checked">TRUE</boolean>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <object class="IBCarbonMenuItem" id="237">
+                <string name="title">Item 2</string>
+                <boolean name="updateSingleItem">TRUE</boolean>
+              </object>
+              <reference idRef="241"/>
+            </array>
+          </object>
+          <string name="title">Language: </string>
+          <int name="titleJustification">0</int>
+          <string name="viewFrame">32 179 209 20 </string>
+          <string name="bounds">179 32 199 241 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="244">
+          <ostype name="controlSignature">EdOp</ostype>
+          <int name="controlID">16</int>
+          <string name="title">Gutter ⌘G</string>
+          <string name="viewFrame">285 64 154 18 </string>
+          <string name="bounds">64 285 82 439 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 286 465 </string>
+    </object>
+    <reference idRef="227"/>
+    <reference idRef="232"/>
+    <reference idRef="233"/>
+    <reference idRef="236"/>
+    <reference idRef="237"/>
+    <reference idRef="238"/>
+    <reference idRef="228"/>
+    <reference idRef="240"/>
+    <reference idRef="222"/>
+    <reference idRef="244"/>
+    <reference idRef="229"/>
+    <reference idRef="223"/>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Text Options</string>
+      <reference name="rootControl" idRef="169"/>
+      <string name="windowRect">219 91 505 556 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="225"/>
+    <reference idRef="221"/>
+    <reference idRef="239"/>
+    <reference idRef="226"/>
+    <reference idRef="230"/>
+  </array>
+  <array count="24" name="allParents">
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="238"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="168"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="238"/>
+    <reference idRef="240"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="1"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="238"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>EditingOptions</string>
+    <reference idRef="168"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">246</unsigned_int>
+</object>

@@ -1,0 +1,131 @@
+/*@group Global
+----------------------------------------------------------------------*/
+html, body {
+    overflow: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #313131;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f0f0f0), to(#fff));
+}
+
+/*默认12号字体*/
+h2, h3, h4, h5, p, ul, form, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #6292b5;
+    text-decoration: none;
+}
+
+
+/*@group 全局设置
+----------------------------------------------------------------------------*/
+.index {
+    width: 560px;
+    height: 317px;
+    left: 50%;
+    top: 50%;
+    margin-top: -158px;
+    margin-left: -280px;
+    position: absolute;
+}
+
+.index h2 {
+    color: #6292B5;
+    font-size: 12px;
+    font-weight: normal;
+
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 60px;
+    height: 0;
+    overflow: hidden;
+    background: url(logo.png);
+    width: 106px;
+    margin: 5px 0 0 10px;
+}
+
+.version {
+    color: #575757;
+    font-size: 11px;
+    word-spacing: 1px;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+.every-title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.every-title span{
+    font-family: "黑体";
+    font-weight: bold;
+    font-size: 14px;
+    -webkit-mask-image:-webkit-gradient(linear, 0% 5%, 0% 30%, from(rgba(67,60,57,0)), to(rgba(79,74,72,46)));
+}
+
+/*@group 每日英语总体设置
+------------------------------------------------------------------------------*/
+.everydayEnglish {
+    position: relative;
+    height: 144px;
+    padding: 0 20px;
+    width:517px;
+    background: url(content-bg.png) no-repeat;
+}
+
+.current-day{
+    line-height: 30px;
+    color:#555555;
+    font-weight: bold;
+}
+
+.english{
+    margin-top:10px;
+}
+
+
+/*@group EXAMPLE 每日英语例句模块
+-----------------------------------------------------------------------------------------*/
+.example p {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.example .sen {
+    color: #626262;
+}
+
+.example .trans {
+    font-family: "黑体";
+    color: #313131;
+}
+
+.example .rel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.link{
+     font-family: "黑体";
+    text-align: center;
+    margin-top: 8px;
+}
+
+.feedback, .visit, .wordbook, .note{
+    color:#313131;
+    margin: 0 5px;
+    letter-spacing: 1px;
+}

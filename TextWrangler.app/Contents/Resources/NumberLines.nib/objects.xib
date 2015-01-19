@@ -1,0 +1,136 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonEditText" id="175">
+      <ostype name="controlSignature">Numb</ostype>
+      <int name="controlID">3</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <boolean name="isSingleLine">TRUE</boolean>
+      <string name="viewFrame">191 87 100 17 </string>
+      <string name="bounds">87 191 104 291 </string>
+    </object>
+    <object class="IBCarbonButton" id="182">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">122 179 80 20 </string>
+      <string name="bounds">179 122 199 202 </string>
+    </object>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Number Lines</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="169">
+        <string name="viewFrame">0 0 314 219 </string>
+        <array count="9" name="subviews">
+          <object class="IBCarbonStaticText" id="179">
+            <int name="controlID">10</int>
+            <string name="title">Starting line number:</string>
+            <int name="justification">-1</int>
+            <string name="viewFrame">25 55 155 16 </string>
+            <string name="bounds">55 25 71 180 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="180">
+            <int name="controlID">11</int>
+            <string name="title">Line number increment:</string>
+            <int name="justification">-1</int>
+            <string name="viewFrame">20 86 160 16 </string>
+            <string name="bounds">86 20 102 180 </string>
+          </object>
+          <object class="IBCarbonEditText" id="174">
+            <ostype name="controlSignature">Numb</ostype>
+            <int name="controlID">2</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="viewFrame">191 56 100 17 </string>
+            <string name="bounds">56 191 73 291 </string>
+          </object>
+          <reference idRef="175"/>
+          <object class="IBCarbonCheckBox" id="177">
+            <ostype name="controlSignature">Numb</ostype>
+            <int name="controlID">4</int>
+            <string name="title">Include space after number  ⌘S</string>
+            <string name="viewFrame">23 115 222 18 </string>
+            <string name="bounds">115 23 133 245 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="178">
+            <ostype name="controlSignature">Numb</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Keep text justified  ⌘K</string>
+            <string name="viewFrame">23 141 169 18 </string>
+            <string name="bounds">141 23 159 192 </string>
+          </object>
+          <reference idRef="182"/>
+          <object class="IBCarbonButton" id="184">
+            <ostype name="controlSignature">Numb</ostype>
+            <int name="controlID">500</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Number</string>
+            <string name="viewFrame">214 179 80 20 </string>
+            <string name="bounds">179 214 199 294 </string>
+          </object>
+          <object class="IBCarbonRadioGroup" id="185">
+            <ostype name="controlSignature">Numb</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">+or-</ostype>
+            <int name="numRows">1</int>
+            <int name="numCols">2</int>
+            <array count="1" name="radioTitles">
+              <array count="2">
+                <string>Insert  ⌘I</string>
+                <string>Remove  ⌘R</string>
+              </array>
+            </array>
+            <string name="viewFrame">20 20 274 20 </string>
+            <string name="bounds">20 20 40 294 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 219 314 </string>
+      </object>
+      <string name="windowRect">128 355 347 669 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="179"/>
+    <reference idRef="180"/>
+    <reference idRef="185"/>
+    <reference idRef="184"/>
+    <reference idRef="169"/>
+    <reference idRef="178"/>
+    <reference idRef="174"/>
+    <reference idRef="177"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="1"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="168"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>NumberLines</string>
+    <reference idRef="168"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">187</unsigned_int>
+</object>

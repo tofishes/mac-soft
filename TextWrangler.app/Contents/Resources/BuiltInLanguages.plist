@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>com.barebones.bblminfo</key>
+	<array>
+	
+		<!-- #mark Software Package Notes -->
+		<dict>
+		
+			<key>BBLMLanguageCode</key>
+			<string>PkgD</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Software Package Notes</string>
+			
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMFileNamesToMatch</key>
+			<array>
+				<string>AUTHORS</string>
+				<string>CHANGELOG</string>
+				<string>COPYING</string>
+				<string>FAQ</string>
+				<string>FEATURES</string>
+				<string>GPL</string>
+				<string>HISTORY</string>
+				<string>INSTALL</string>
+				<string>KNOWN_BUGS</string>
+				<string>LEGAL</string>
+				<string>LGPL</string>
+				<string>LICENSE</string>
+				<string>NEWS</string>
+				<string>ReadMe</string>
+				<string>README</string>
+				<string>THANKS</string>
+				<string>TODO</string>
+			</array>
+			
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>dict:///__SYMBOLNAME__</string>
+		</dict>
+		
+		<!-- #mark Log files -->
+		<dict>
+		
+			<key>BBLMLanguageCode</key>
+			<string>LOG </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Log File</string>
+			
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.log</string>
+				</dict>
+			</array>
+		</dict>
+		
+		<!-- #mark Data files -->
+		<dict>
+		
+			<key>BBLMLanguageCode</key>
+			<string>DATA</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Text File</string>
+			
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.dat</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.data</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.text</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.txt</string>
+				</dict>
+			</array>
+		</dict>
+		
+		<!-- #mark 68K Assembler -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>ASM </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>68K Assembler</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>Asm Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.a</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.asm</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.s</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.equ</string>
+				</dict>
+			</array>
+			
+			<key>BBLMCommentLineDefault</key>
+			<string>; </string>
+		</dict>
+
+		<!-- #mark C -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>C   </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>ANSI C</string>
+			
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+			
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>C Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.c</string>
+
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+				
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.pch</string>
+
+					<key>BBLMIsHeaderKind</key>
+					<true/>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+		
+			<key>BBLMCommentPrefixDefault</key>
+			<string>/* </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> */</string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://developer.apple.com/library/mac/search/?q=__SYMBOLNAME__</string>
+		</dict>
+
+		<!-- #mark C++ -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>C++ </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>C++</string>
+			
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+			
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>C++ Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMPreferredFilenameExtension</key>
+			<string>cpp</string>
+			
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.cc</string>
+					
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.cp</string>
+
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.cpp</string>
+
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.cxx</string>
+
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.c++</string>
+
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.h</string>
+
+					<key>BBLMIsHeaderKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.hh</string>
+
+					<key>BBLMIsHeaderKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.hpp</string>
+
+					<key>BBLMIsHeaderKind</key>
+					<true/>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.pch++</string>
+
+					<key>BBLMIsHeaderKind</key>
+					<true/>
+				</dict>
+
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+		
+			<key>BBLMCommentPrefixDefault</key>
+			<string>/* </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> */</string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://developer.apple.com/library/mac/search/?q=__SYMBOLNAME__</string>
+		</dict>
+
+		<!-- #mark Objective-C -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>ObjC</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Objective-C</string>
+			
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+			
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+			
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>Objective-C Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.m</string>
+					
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+		
+			<key>BBLMCommentPrefixDefault</key>
+			<string>/* </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> */</string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://developer.apple.com/library/mac/search/?q=__SYMBOLNAME__</string>
+		</dict>
+
+		<!-- #mark Objective-C++ -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>ObC+</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Objective-C++</string>
+			
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+			
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>Objective-C++ Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.mm</string>
+					
+					<key>BBLMIsSourceKind</key>
+					<true/>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+		
+			<key>BBLMCommentPrefixDefault</key>
+			<string>/* </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> */</string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://developer.apple.com/library/mac/search/?q=__SYMBOLNAME__</string>
+		</dict>
+		
+		<!-- #mark Grep Search Pattern -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>GrpS</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Grep Search Pattern</string>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+		</dict>
+
+		<!-- #mark Grep Replace Pattern -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>GrpR</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Grep Replace Pattern</string>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+		</dict>
+
+		<!-- #mark Pascal -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>Pasc</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Object Pascal</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMKeywordFileName</key>
+			<string>Pascal Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.p</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.pas</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.pp</string>
+				</dict>
+			</array>
+			
+			<key>BBLMCommentPrefixDefault</key>
+			<string>{</string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string>}</string>
+
+		</dict>
+
+		<!-- #mark Rez -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>Rez </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Rez</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>Rez Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.r</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.rez</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+		
+			<key>BBLMCommentPrefixDefault</key>
+			<string>/* </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> */</string>
+		</dict>
+
+		<!-- #mark Perl -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>Perl</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Perl</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>Perl Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+			
+			<key>BBLMFiltersRunsForSpellChecking</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.pl</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.pm</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string># </string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>x-perldoc://lookup/__SYMBOLNAME__</string>
+
+		</dict>
+
+		<!-- #mark Fortran -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>Fort</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Fortran</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMKeywordFileName</key>
+			<string>Fortran Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.f</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.for</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.ftn</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.f77</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>C</string>
+		
+		</dict>
+
+		<!-- #mark Fortran 9x -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>F90 </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Fortran 9x</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMKeywordFileName</key>
+			<string>Fortran Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.f90</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.f95</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.f2k</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>!</string>
+		
+		</dict>
+
+		<!-- #mark Tcl -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>Tcl </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Tcl</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>Tcl Keywords.txt</string>
+			
+			<key>BBLMPredefinedNameFileName</key>
+			<string>Tcl Predefined Names.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.tcl</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string># </string>
+		</dict>
+
+		<!-- #mark Shell Script -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>Shel</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Unix Shell Script</string>
+			
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+			
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>Unix Shell Keywords.txt</string>
+			
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.sh</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string># </string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>x-man-page://__SYMBOLNAME__</string>
+
+		</dict>
+
+		<!-- #mark HTML -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>HTML</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>HTML</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMDroppedFilePathStyle</key>
+			<string>URL</string>
+			
+			<key>BBLMUseHTMLFileSearchRules</key>
+			<true/>
+			
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMSupportsOneByteKeywordLookups</key>
+			<true/>
+			
+			<key>BBLMSupportsSubrangeFunctionScan</key>
+			<true/>
+			
+			<key>BBLMCanSpellCheckCodeRuns</key>
+			<true/>
+
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMPreferredFilenameExtension</key>
+			<string>html</string>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.asp</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.cfm</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.htm</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.html</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.incl</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.php</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.php3</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.php4</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.php5</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.shtml</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.tmpl</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentPrefixDefault</key>
+			<string>&lt;!-- </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> --&gt;</string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://www.google.com/search?q=__SYMBOLNAME__+"TR/html4"+site:www.w3.org</string>
+
+			<key>BBLMCanGenerateHTMLForPreview</key>
+			<true/>
+
+			<key>BBLMPreviewHTMLGenerator</key>
+			<dict>
+				<key>BBLMPreviewCommandType</key>
+				<string>DirectPreview</string>
+			</dict>
+
+		</dict>
+
+		<!-- #mark XML -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>XML </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>XML</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMDroppedFilePathStyle</key>
+			<string>URL</string>
+			
+			<key>BBLMUseHTMLFileSearchRules</key>
+			<true/>
+			
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMSupportsOneByteKeywordLookups</key>
+			<true/>
+			
+			<key>BBLMCanSpellCheckCodeRuns</key>
+			<true/>
+			
+			<key>BBLMSupportsSubrangeFunctionScan</key>
+			<true/>
+
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMPreferredFilenameExtension</key>
+			<string>xml</string>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.plist</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.rss</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.webloc</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.wml</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.xhtml</string>
+				</dict>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.xml</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentPrefixDefault</key>
+			<string>&lt;!-- </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> --&gt;</string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://www.google.com/search?q=__SYMBOLNAME__+XML+site:www.w3.org</string>
+
+			<key>BBLMCanGenerateHTMLForPreview</key>
+			<true/>
+
+			<key>BBLMPreviewHTMLGenerator</key>
+			<dict>
+				<key>BBLMPreviewCommandType</key>
+				<string>DirectPreview</string>
+			</dict>
+
+		</dict>
+
+		<!-- #mark Ruby in HTML -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>RHTM</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Ruby in HTML</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMDroppedFilePathStyle</key>
+			<string>URL</string>
+			
+			<key>BBLMUseHTMLFileSearchRules</key>
+			<true/>
+			
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.rhtml</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.erb</string>
+				</dict>
+			</array>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://www.google.com/search?q=__SYMBOLNAME__+%22TR%2Fhtml4%22+site%3Awww.w3.org</string>
+
+			<key>BBLMCanGenerateHTMLForPreview</key>
+			<true/>
+
+			<key>BBLMPreviewHTMLGenerator</key>
+			<dict>
+				<key>BBLMPreviewCommandType</key>
+				<string>DirectPreview</string>
+			</dict>
+		</dict>
+
+		<!-- #mark JSP -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>JSP </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>JSP</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMDroppedFilePathStyle</key>
+			<string>URL</string>
+			
+			<key>BBLMUseHTMLFileSearchRules</key>
+			<true/>
+			
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMCanSpellCheckCodeRuns</key>
+			<true/>
+
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.jsp</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+		
+			<key>BBLMCanGenerateHTMLForPreview</key>
+			<true/>
+
+			<key>BBLMPreviewHTMLGenerator</key>
+			<dict>
+				<key>BBLMPreviewCommandType</key>
+				<string>DirectPreview</string>
+			</dict>
+		</dict>
+
+		<!-- #mark PHP -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>PHP </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>PHP</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMFiltersRunsForSpellChecking</key>
+			<true/>
+
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMKeywordFileName</key>
+			<string>PHP Keywords.txt</string>
+
+			<key>BBLMPredefinedNameFileName</key>
+			<string>PHP Predefined Names.txt</string>
+
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+
+			<key>BBLMReferenceSearchURLTemplate</key>
+			<string>http://www.php.net/__SYMBOLNAME__</string>
+			
+			<key>BBLMCompletionTagsFileNames</key>
+			<array>
+				<string>PHP Tags.txt</string>
+			</array>
+		</dict>
+
+		<!-- #mark CSS -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>CSS </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>CSS</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMKeywordFileName</key>
+			<string>CSS Keywords.txt</string>
+
+			<key>BBLMPredefinedNameFileName</key>
+			<string>CSS Predefined Names.txt</string>
+
+			<key>BBLMSupportsPredefinedNameLookups</key>
+			<true />
+			
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.css</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.scss</string>
+				</dict>
+			</array>
+		
+			<key>BBLMCommentPrefixDefault</key>
+			<string>/* </string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string> */</string>
+		</dict>
+		
+		<!-- #mark VBScript -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>VBSc</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>VBScript</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMKeywordFileName</key>
+			<string>VBScript Keywords.txt</string>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.asa</string>
+
+					<key>BBLMLanguageSuffix</key>
+					<string>.vbs</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentLineDefault</key>
+			<string>' </string>
+		
+		</dict>
+
+		<!-- #mark VectorScript -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>VScr</string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>VectorScript</string>
+			
+			<key>BBLMScansFunctions</key>
+			<true/>
+
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMKeywordFileName</key>
+			<string>VectorScript Keywords.txt</string>
+
+			<key>BBLMPredefinedNameFileName</key>
+			<string>VectorScript Predefined Names.txt</string>
+
+			<key>BBLMSupportsTextCompletion</key>
+			<true/>
+
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.vs</string>
+				</dict>
+
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.vss</string>
+				</dict>
+			</array>
+
+			<key>BBLMCommentPrefixDefault</key>
+			<string>{</string>
+		
+			<key>BBLMCommentSuffixDefault</key>
+			<string>}</string>
+
+		</dict>
+
+		<!-- #mark Perforce Specification -->
+		<dict>
+			<key>BBLMLanguageCode</key>
+			<string>P4  </string>
+			
+			<key>BBLMLanguageDisplayName</key>
+			<string>Perforce Specification</string>
+			
+			<key>BBLMIsCaseSensitive</key>
+			<true/>
+
+			<key>BBLMColorsSyntax</key>
+			<true/>
+
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			
+			<key>BBLMFiltersRunsForSpellChecking</key>
+			<true/>
+
+			<key>BBLMCanSpellCheckCodeRuns</key>
+			<true/>
+
+			<key>BBLMCommentLineDefault</key>
+			<string># </string>
+		
+		</dict>
+
+	</array>
+	
+</dict>
+</plist>

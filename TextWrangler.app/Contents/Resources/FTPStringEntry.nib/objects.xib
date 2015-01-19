@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonButton" id="182">
+      <ostype name="controlSignature">FTPs</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">404 87 80 20 </string>
+      <string name="bounds">87 404 107 484 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="181">
+      <ostype name="controlSignature">FTPs</ostype>
+      <int name="controlID">4</int>
+      <string name="viewFrame">20 20 464 16 </string>
+      <string name="bounds">20 20 36 484 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="185">
+      <string name="viewFrame">0 0 504 127 </string>
+      <array count="4" name="subviews">
+        <reference idRef="181"/>
+        <object class="IBCarbonEditText" id="183">
+          <ostype name="controlSignature">FTPs</ostype>
+          <int name="controlID">3</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <boolean name="isSingleLine">TRUE</boolean>
+          <string name="viewFrame">35 47 446 17 </string>
+          <string name="bounds">47 35 64 481 </string>
+        </object>
+        <object class="IBCarbonButton" id="180">
+          <ostype name="controlSignature">FTPs</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">312 87 80 20 </string>
+          <string name="bounds">87 312 107 392 </string>
+        </object>
+        <reference idRef="182"/>
+      </array>
+      <string name="bounds">0 0 127 504 </string>
+    </object>
+    <reference idRef="180"/>
+    <reference idRef="183"/>
+    <object class="IBCarbonWindow" id="184">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="185"/>
+      <string name="windowRect">100 100 227 604 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="185"/>
+    <reference idRef="185"/>
+    <reference idRef="184"/>
+    <reference idRef="185"/>
+    <reference idRef="185"/>
+    <reference idRef="1"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>FTPStringEntry</string>
+    <reference idRef="184"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">540</unsigned_int>
+</object>

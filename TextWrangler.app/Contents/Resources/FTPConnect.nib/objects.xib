@@ -1,0 +1,169 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="15" name="allObjects">
+    <object class="IBCarbonStaticText" id="354">
+      <string name="title">Password:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">34 137 66 16 </string>
+      <string name="bounds">137 34 153 100 </string>
+    </object>
+    <object class="IBCarbonWindow" id="347">
+      <boolean name="autoDragTracking">TRUE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <object name="rootControl" class="IBCarbonRootControl" id="348">
+        <string name="viewFrame">0 0 389 216 </string>
+        <array count="11" name="subviews">
+          <object class="IBCarbonEditText" id="355">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">3</int>
+            <boolean name="useInlineInput">TRUE</boolean>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="foreColor">0 0 0 </string>
+            <string name="viewFrame">111 51 227 16 </string>
+            <string name="bounds">51 111 67 338 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="358">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">6</int>
+            <int name="fontStyle">-2</int>
+            <ostype name="command">SFTP</ostype>
+            <string name="title">SFTP</string>
+            <string name="viewFrame">106 78 45 18 </string>
+            <string name="bounds">78 106 96 151 </string>
+          </object>
+          <object class="IBCarbonEditText" id="356">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">4</int>
+            <boolean name="useInlineInput">TRUE</boolean>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="foreColor">0 0 0 </string>
+            <string name="viewFrame">111 107 255 16 </string>
+            <string name="bounds">107 111 123 366 </string>
+          </object>
+          <object class="IBCarbonEditText" id="357">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">5</int>
+            <boolean name="isPassword">TRUE</boolean>
+            <boolean name="useInlineInput">TRUE</boolean>
+            <boolean name="isUnicode">TRUE</boolean>
+            <boolean name="isSingleLine">TRUE</boolean>
+            <string name="foreColor">0 0 0 </string>
+            <string name="viewFrame">111 137 255 16 </string>
+            <string name="bounds">137 111 153 366 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="363">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">8</int>
+            <ostype name="command">Bkmk</ostype>
+            <int name="selectedItem">-2147483648</int>
+            <object name="menu" class="IBCarbonMenu" id="364">
+            </object>
+            <string name="title">Bookmarks: </string>
+            <int name="titleJustification">0</int>
+            <string name="viewFrame">27 20 107 20 </string>
+            <string name="bounds">20 27 40 134 </string>
+          </object>
+          <object class="IBCarbonPopupButton" id="383">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">7</int>
+            <int name="selectedItem">-2147483648</int>
+            <object name="menu" class="IBCarbonMenu" id="384">
+            </object>
+            <int name="titleJustification">0</int>
+            <string name="viewFrame">347 49 25 20 </string>
+            <string name="bounds">49 347 69 372 </string>
+          </object>
+          <object class="IBCarbonButton" id="349">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Connect</string>
+            <string name="viewFrame">293 176 76 20 </string>
+            <string name="bounds">176 293 196 369 </string>
+          </object>
+          <object class="IBCarbonButton" id="350">
+            <ostype name="controlSignature">FTCn</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <int name="iconPosition">0</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">205 176 76 20 </string>
+            <string name="bounds">176 205 196 281 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="351">
+            <string name="title">Server:</string>
+            <int name="justification">-1</int>
+            <string name="viewFrame">34 51 66 16 </string>
+            <string name="bounds">51 34 67 100 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="353">
+            <string name="title">User:</string>
+            <int name="justification">-1</int>
+            <string name="viewFrame">59 107 41 16 </string>
+            <string name="bounds">107 59 123 100 </string>
+          </object>
+          <reference idRef="354"/>
+        </array>
+        <string name="bounds">0 0 216 389 </string>
+      </object>
+      <string name="windowRect">100 100 316 489 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+      <int name="WindowMaxWidth">0</int>
+      <int name="WindowMaxHeight">0</int>
+    </object>
+    <reference idRef="353"/>
+    <reference idRef="351"/>
+    <reference idRef="350"/>
+    <reference idRef="384"/>
+    <reference idRef="363"/>
+    <reference idRef="357"/>
+    <reference idRef="348"/>
+    <reference idRef="358"/>
+    <reference idRef="364"/>
+    <reference idRef="383"/>
+    <reference idRef="355"/>
+    <reference idRef="356"/>
+    <reference idRef="349"/>
+  </array>
+  <array count="15" name="allParents">
+    <reference idRef="348"/>
+    <reference idRef="1"/>
+    <reference idRef="348"/>
+    <reference idRef="348"/>
+    <reference idRef="348"/>
+    <reference idRef="383"/>
+    <reference idRef="348"/>
+    <reference idRef="348"/>
+    <reference idRef="347"/>
+    <reference idRef="348"/>
+    <reference idRef="363"/>
+    <reference idRef="348"/>
+    <reference idRef="348"/>
+    <reference idRef="348"/>
+    <reference idRef="348"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>FTPConnect</string>
+    <reference idRef="347"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">540</unsigned_int>
+</object>

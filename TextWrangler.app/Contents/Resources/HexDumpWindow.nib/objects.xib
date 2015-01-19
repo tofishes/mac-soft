@@ -1,0 +1,181 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonStaticText" id="259">
+      <int name="controlID">24</int>
+      <string name="title">Use ‘.’ in place of:</string>
+      <int name="justification">-1</int>
+      <string name="viewFrame">24 170 122 16 </string>
+      <string name="bounds">170 24 186 146 </string>
+    </object>
+    <object class="IBCarbonButton" id="242">
+      <ostype name="controlSignature">HexD</ostype>
+      <int name="controlID">500</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Dump</string>
+      <string name="viewFrame">323 231 80 20 </string>
+      <string name="bounds">231 323 251 403 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="257">
+      <int name="controlID">20</int>
+      <string name="title">rows.</string>
+      <string name="viewFrame">323 130 41 16 </string>
+      <string name="bounds">130 323 146 364 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="261">
+      <int name="controlID">22</int>
+      <string name="title">Output options:</string>
+      <string name="viewFrame">20 81 112 16 </string>
+      <string name="bounds">81 20 97 132 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="256">
+      <ostype name="controlSignature">HexD</ostype>
+      <int name="controlID">7</int>
+      <ostype name="command">BLEg</ostype>
+      <int name="numRows">1</int>
+      <int name="numCols">4</int>
+      <array count="1" name="radioTitles">
+        <array count="4">
+          <string>8</string>
+          <string>16</string>
+          <string>24</string>
+          <string>32</string>
+        </array>
+      </array>
+      <string name="viewFrame">154 129 173 18 </string>
+      <string name="bounds">129 154 147 327 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="237">
+      <string name="viewFrame">0 0 423 271 </string>
+      <array count="12" name="subviews">
+        <object class="IBCarbonStaticText" id="255">
+          <int name="controlID">23</int>
+          <string name="title">Bytes per row:</string>
+          <int name="justification">-1</int>
+          <string name="viewFrame">46 104 100 16 </string>
+          <string name="bounds">104 46 120 146 </string>
+        </object>
+        <reference idRef="257"/>
+        <reference idRef="259"/>
+        <reference idRef="261"/>
+        <reference idRef="242"/>
+        <object class="IBCarbonRadioGroup" id="228">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">1</int>
+          <array count="2" name="radioTitles">
+            <array count="1">
+              <string>Front document’s contents  ⌘1</string>
+            </array>
+            <array count="1">
+              <string>Front document’s file  ⌘2</string>
+            </array>
+          </array>
+          <string name="viewFrame">20 20 238 40 </string>
+          <string name="bounds">20 20 60 258 </string>
+        </object>
+        <object class="IBCarbonRadioGroup" id="258">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">5</int>
+          <ostype name="command">BPRg</ostype>
+          <int name="numRows">1</int>
+          <int name="numCols">4</int>
+          <array count="1" name="radioTitles">
+            <array count="4">
+              <string>8</string>
+              <string>16</string>
+              <string>24</string>
+              <string>32</string>
+            </array>
+          </array>
+          <string name="viewFrame">154 103 173 18 </string>
+          <string name="bounds">103 154 121 327 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="262">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">6</int>
+          <string name="title">Blank line every:</string>
+          <string name="viewFrame">20 129 126 18 </string>
+          <string name="bounds">129 20 147 146 </string>
+        </object>
+        <reference idRef="256"/>
+        <object class="IBCarbonCheckBox" id="254">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">8</int>
+          <string name="title">Control characters (ASCII &lt; 32)  ⌘K</string>
+          <string name="viewFrame">154 170 249 18 </string>
+          <string name="bounds">170 154 188 403 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="260">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">9</int>
+          <string name="title">8-bit characters (ASCII &gt; 127)  ⌘8</string>
+          <string name="viewFrame">154 194 242 18 </string>
+          <string name="bounds">194 154 212 396 </string>
+        </object>
+        <object class="IBCarbonButton" id="232">
+          <ostype name="controlSignature">HexD</ostype>
+          <int name="controlID">501</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">231 231 80 20 </string>
+          <string name="bounds">231 231 251 311 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 271 423 </string>
+    </object>
+    <reference idRef="260"/>
+    <reference idRef="232"/>
+    <object class="IBCarbonWindow" id="243">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Hex Dump Window</string>
+      <reference name="rootControl" idRef="237"/>
+      <string name="windowRect">394 500 665 923 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="258"/>
+    <reference idRef="255"/>
+    <reference idRef="262"/>
+    <reference idRef="254"/>
+    <reference idRef="228"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="243"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="1"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+    <reference idRef="237"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>HexDumpWindow</string>
+    <reference idRef="243"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">266</unsigned_int>
+</object>

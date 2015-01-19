@@ -1,0 +1,163 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="15" name="allObjects">
+    <object class="IBCarbonCheckBox" id="221">
+      <ostype name="controlSignature">PLCo</ostype>
+      <int name="controlID">8</int>
+      <ostype name="command">OutT</ostype>
+      <string name="title">Report results  ⌘4</string>
+      <string name="viewFrame">212 185 138 18 </string>
+      <string name="bounds">185 212 203 350 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="225">
+      <ostype name="controlSignature">PLCo</ostype>
+      <int name="controlID">4</int>
+      <string name="title">Use grep  ⌘G</string>
+      <string name="viewFrame">20 133 107 18 </string>
+      <string name="bounds">133 20 151 127 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="220">
+      <ostype name="controlSignature">PLCo</ostype>
+      <int name="controlID">6</int>
+      <ostype name="command">OutT</ostype>
+      <string name="title">Copy to new document  ⌘2</string>
+      <string name="viewFrame">212 133 196 18 </string>
+      <string name="bounds">133 212 151 408 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="229">
+      <string name="title">Find lines containing:</string>
+      <string name="viewFrame">20 20 136 16 </string>
+      <string name="bounds">20 20 36 156 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="228">
+      <ostype name="controlSignature">PLCo</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">OutT</ostype>
+      <string name="title">Copy to clipboard  ⌘1</string>
+      <string name="viewFrame">212 107 162 18 </string>
+      <string name="bounds">107 212 125 374 </string>
+    </object>
+    <object class="IBCarbonButton" id="234">
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">234 223 80 20 </string>
+      <string name="bounds">223 234 243 314 </string>
+    </object>
+    <object class="IBCarbonButton" id="215">
+      <ostype name="controlSignature">PLCo</ostype>
+      <int name="controlID">500</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Process</string>
+      <string name="viewFrame">330 223 80 20 </string>
+      <string name="bounds">223 330 243 410 </string>
+    </object>
+    <object class="IBCarbonMenuItem" id="369">
+      <string name="title">dummy item</string>
+      <boolean name="checked">TRUE</boolean>
+      <boolean name="updateSingleItem">TRUE</boolean>
+    </object>
+    <object class="IBCarbonWindow" id="230">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Process Lines</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="233">
+        <string name="viewFrame">0 0 432 263 </string>
+        <array count="11" name="subviews">
+          <reference idRef="229"/>
+          <object class="IBCarbonEditText" id="216">
+            <ostype name="controlSignature">PLCo</ostype>
+            <int name="controlID">1</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">23 52 385 32 </string>
+            <string name="bounds">52 23 84 408 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="219">
+            <ostype name="controlSignature">PLCo</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Case sensitive  ⌘N</string>
+            <string name="viewFrame">20 107 140 18 </string>
+            <string name="bounds">107 20 125 160 </string>
+          </object>
+          <reference idRef="225"/>
+          <object class="IBCarbonPopupButton" id="368">
+            <ostype name="controlSignature">PLCo</ostype>
+            <int name="controlID">9</int>
+            <object name="menu" class="IBCarbonMenu" id="367">
+              <string name="title">Popup:</string>
+              <array count="1" name="items">
+                <reference idRef="369"/>
+              </array>
+            </object>
+            <string name="title">Patterns:</string>
+            <int name="titleJustification">-2</int>
+            <string name="viewFrame">41 159 84 20 </string>
+            <string name="bounds">159 41 179 125 </string>
+          </object>
+          <reference idRef="228"/>
+          <reference idRef="220"/>
+          <object class="IBCarbonCheckBox" id="222">
+            <ostype name="controlSignature">PLCo</ostype>
+            <int name="controlID">7</int>
+            <ostype name="command">OutT</ostype>
+            <string name="title">Delete matched lines  ⌘3</string>
+            <string name="viewFrame">212 159 182 18 </string>
+            <string name="bounds">159 212 177 394 </string>
+          </object>
+          <reference idRef="221"/>
+          <reference idRef="234"/>
+          <reference idRef="215"/>
+        </array>
+        <string name="bounds">0 0 263 432 </string>
+      </object>
+      <string name="windowRect">100 100 363 532 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="222"/>
+    <reference idRef="368"/>
+    <reference idRef="233"/>
+    <reference idRef="216"/>
+    <reference idRef="367"/>
+    <reference idRef="219"/>
+  </array>
+  <array count="15" name="allParents">
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="367"/>
+    <reference idRef="1"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="230"/>
+    <reference idRef="233"/>
+    <reference idRef="368"/>
+    <reference idRef="233"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>ProcessLines</string>
+    <reference idRef="230"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">398</unsigned_int>
+</object>

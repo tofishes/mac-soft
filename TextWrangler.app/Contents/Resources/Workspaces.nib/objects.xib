@@ -1,0 +1,206 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="14" name="allObjects">
+    <object class="IBCarbonStaticText" id="185">
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">Available workspaces:</string>
+      <string name="viewFrame">20 20 144 16 </string>
+      <string name="bounds">20 20 36 164 </string>
+    </object>
+    <object class="IBCarbonButton" id="183">
+      <ostype name="command">not!</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">126 283 80 20 </string>
+      <string name="bounds">283 126 303 206 </string>
+    </object>
+    <object class="IBCarbonPopupButton" id="174">
+      <ostype name="controlSignature">GASt</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">Wksp</ostype>
+      <int name="selectedItem">-2147483648</int>
+      <object name="menu" class="IBCarbonMenu" id="175">
+      </object>
+      <int name="titleJustification">0</int>
+      <string name="viewFrame">474 44 25 20 </string>
+      <string name="bounds">44 474 64 499 </string>
+    </object>
+    <reference idRef="175"/>
+    <object class="IBCarbonEditText" id="170">
+      <ostype name="controlSignature">GASt</ostype>
+      <int name="controlID">3</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="viewFrame">35 47 428 16 </string>
+      <string name="bounds">47 35 63 463 </string>
+    </object>
+    <object class="IBCarbonWindow" id="179">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Delete Workspace</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="180">
+        <string name="viewFrame">0 0 318 323 </string>
+        <array count="4" name="subviews">
+          <object class="IBCarbonButton" id="184">
+            <ostype name="controlSignature">DWsp</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">Delete</string>
+            <string name="viewFrame">218 283 80 20 </string>
+            <string name="bounds">283 218 303 298 </string>
+          </object>
+          <reference idRef="183"/>
+          <reference idRef="185"/>
+          <object class="IBCarbonDBListView" id="187">
+            <ostype name="controlSignature">DWsp</ostype>
+            <int name="controlID">2</int>
+            <int name="fontStyle">-2</int>
+            <int name="columnWidth">0</int>
+            <boolean name="variableWidthColumns">FALSE</boolean>
+            <array count="1" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">Name</ostype>
+                <int name="propertyFlags">983040</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">257</int>
+                <int name="minWidth">257</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Name</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <int name="selectionFlags">0</int>
+            <boolean name="horzScrollBar">FALSE</boolean>
+            <boolean name="listViewUsePlainBackground">FALSE</boolean>
+            <int name="listViewHeaderBtnHeight">17</int>
+            <string name="viewFrame">20 44 278 219 </string>
+            <string name="bounds">44 20 263 298 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 323 318 </string>
+      </object>
+      <string name="windowRect">100 100 423 418 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonWindow" id="168">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Save Workspace</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="169">
+        <string name="viewFrame">0 0 516 126 </string>
+        <array count="5" name="subviews">
+          <reference idRef="170"/>
+          <object class="IBCarbonButton" id="172">
+            <ostype name="controlSignature">GASt</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="viewFrame">416 86 80 20 </string>
+            <string name="bounds">86 416 106 496 </string>
+          </object>
+          <object class="IBCarbonButton" id="173">
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">324 86 80 20 </string>
+            <string name="bounds">86 324 106 404 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="171">
+            <ostype name="controlSignature">GASt</ostype>
+            <int name="controlID">2</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="viewFrame">20 20 387 16 </string>
+            <string name="bounds">20 20 36 407 </string>
+          </object>
+          <reference idRef="174"/>
+        </array>
+        <string name="bounds">0 0 126 516 </string>
+      </object>
+      <string name="windowRect">100 100 226 616 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="180"/>
+    <reference idRef="187"/>
+    <reference idRef="169"/>
+    <reference idRef="184"/>
+    <reference idRef="172"/>
+    <reference idRef="173"/>
+    <reference idRef="171"/>
+  </array>
+  <array count="14" name="allParents">
+    <reference idRef="180"/>
+    <reference idRef="180"/>
+    <reference idRef="169"/>
+    <reference idRef="174"/>
+    <reference idRef="169"/>
+    <reference idRef="1"/>
+    <reference idRef="1"/>
+    <reference idRef="179"/>
+    <reference idRef="180"/>
+    <reference idRef="168"/>
+    <reference idRef="180"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+    <reference idRef="169"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>DeleteWorkspaceDialog</string>
+    <reference idRef="179"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>NewWorkspaceDialog</string>
+    <reference idRef="168"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">198</unsigned_int>
+</object>

@@ -1,0 +1,29 @@
+
+
+ <div id="eTransform" class="trans-wrapper">
+        <h2>{{title}}
+            <span class="phonetic">{{phone}}</span>
+            {{#haveSpeech}}
+            <a data-speech="{{title}}" href="#" title="发音" class="sp dictvoice"></a>
+            {{/haveSpeech}}
+        </h2>
+
+        <h3>
+            <span class="tabs">
+                <a rel="#etcTrans" class="tab-current"><span>基本释义</span></a>
+            </span>
+            <a class="toggle toggleOpen" rel="#transformToggle"></a>
+        </h3>
+		
+        <div id="transformToggle"><!--此标签用于折叠，名字应与上面class为toggle的标签中 rel属性相同-->
+            <div id="etcTrans" class="trans-container tab-content">
+                <ul>
+				{{#trans}}
+                    <li><span class="pos"></span> <span class="def">{{item}}</span></li>
+				{{/trans}}
+
+                </ul>
+            </div>
+        </div>
+
+  </div>

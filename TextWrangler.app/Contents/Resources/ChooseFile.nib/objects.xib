@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonRootControl" id="167">
+      <string name="viewFrame">0 0 427 256 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonHIView" id="180">
+          <ostype name="controlSignature">Flst</ostype>
+          <int name="controlID">500</int>
+          <ostype name="command">ok  </ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="classID">com.barebones.CBigListHIView</string>
+          <string name="viewFrame">20 44 387 152 </string>
+          <string name="bounds">44 20 196 407 </string>
+        </object>
+        <object class="IBCarbonButton" id="181">
+          <ostype name="command">not!</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">235 216 80 20 </string>
+          <string name="bounds">216 235 236 315 </string>
+        </object>
+        <object class="IBCarbonButton" id="182">
+          <ostype name="controlSignature">Flst</ostype>
+          <int name="controlID">600</int>
+          <ostype name="command">ok  </ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">1</int>
+          <string name="title">Open</string>
+          <string name="viewFrame">327 216 80 20 </string>
+          <string name="bounds">216 327 236 407 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="183">
+          <ostype name="controlSignature">Flst</ostype>
+          <int name="controlID">601</int>
+          <string name="title">Choose a File:</string>
+          <string name="viewFrame">20 20 387 16 </string>
+          <string name="bounds">20 20 36 407 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 256 427 </string>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">100 100 356 527 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="182"/>
+    <reference idRef="180"/>
+    <reference idRef="183"/>
+    <reference idRef="181"/>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="166"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>ChooseFile</string>
+    <reference idRef="166"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">188</unsigned_int>
+</object>

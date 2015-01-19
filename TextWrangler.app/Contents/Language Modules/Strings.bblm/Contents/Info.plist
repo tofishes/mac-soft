@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13F34</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Strings</string>
+	<key>CFBundleGetInfoString</key>
+	<string>10.5.13 (3398), copyright © Bare Bones Software, Inc.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.barebones.bblm.strings</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>10.5.13</string>
+	<key>CFBundleSignature</key>
+	<string>BBLM</string>
+	<key>CFBundleVersion</key>
+	<string>3398</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5A3005</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12F37</string>
+	<key>DTSDKName</key>
+	<string>macosx10.8</string>
+	<key>DTXcode</key>
+	<string>0502</string>
+	<key>DTXcodeBuild</key>
+	<string>5A3005</string>
+	<key>com.barebones.ProductBuildNumber</key>
+	<string>3398</string>
+	<key>com.barebones.bblminfo</key>
+	<array>
+		<dict>
+			<key>BBLMAlwaysGuessLanguage</key>
+			<true/>
+			<key>BBLMCanGenerateHTMLForPreview</key>
+			<false/>
+			<key>BBLMCanGuessLanguage</key>
+			<true/>
+			<key>BBLMColorsSyntax</key>
+			<true/>
+			<key>BBLMCommentLineDefault</key>
+			<string>// </string>
+			<key>BBLMDroppedFilePathStyle</key>
+			<string>POSIX</string>
+			<key>BBLMFiltersRunsForSpellChecking</key>
+			<true/>
+			<key>BBLMFunctionScannerDoesFoldsToo</key>
+			<false/>
+			<key>BBLMIsCaseSensitive</key>
+			<false/>
+			<key>BBLMLanguageCode</key>
+			<string>STRS</string>
+			<key>BBLMLanguageDisplayName</key>
+			<string>Strings File</string>
+			<key>BBLMMainFunctionName</key>
+			<string>StringsMachO</string>
+			<key>BBLMScansFunctions</key>
+			<true/>
+			<key>BBLMSuffixMap</key>
+			<array>
+				<dict>
+					<key>BBLMLanguageSuffix</key>
+					<string>.strings</string>
+				</dict>
+			</array>
+			<key>BBLMSupportsCFStringKeywordLookups</key>
+			<true/>
+			<key>BBLMUseHTMLFileSearchRules</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

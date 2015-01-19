@@ -1,0 +1,174 @@
+<div id="mainresult" >
+    <div id="simpleTrans" class="trans-wrapper">
+        <h2>
+            {{title}}
+            <span class="phonetic">{{phone}}</span>
+            {{#haveSpeech}}
+            <a data-speech="{{title}}" href="#" title="发音" class="sp dictvoice"></a>
+            {{/haveSpeech}}
+        </h2>
+		{{#hasNoAnyTrans}}
+		很遗憾，没有找到<b>"{{title}}"</b>的释义
+        {{#online}}
+		<br/>
+        <a href="#" onclick='goURL("http://feedback.youdao.com/quality_report.jsp?q={{title}}&prodtype=dict&cmt=%E6%88%91%E8%A6%81%E6%B7%BB%E5%8A%A0%E2%80%9C{{title}}%E2%80%9D%E7%9A%84%E4%B8%AD%E6%96%87%E9%87%8A%E4%B9%89%E5%A6%82%E4%B8%8B%EF%BC%9A");'>添加释义，成为本词条创始人！</a>
+        {{/online}}
+		{{/hasNoAnyTrans}}
+		
+		{{#hasSimpleTrans}}
+        <h3>
+            <span class="tabs">
+                <a rel="#etcTrans" class="tab-current"><span>基本释义</span></a>
+            </span>
+            <a class="toggle toggleOpen" rel="#transformToggle"></a>
+        </h3>
+
+        <div id="transformToggle">
+            <!--此标签用于折叠，名字应与上面class为toggle的标签中 rel属性相同-->
+            <div id="etcTrans" class="trans-container tab-content">
+                <ul>
+				 {{#simpleTrans}}
+				 {{#item}}
+                    <li><span class="pos"></span> <span class="def">{{trans}}</span></li>
+				 {{/item}}
+				 {{/simpleTrans}}
+                    
+                </ul>
+            </div>
+        </div>
+		</div>
+		{{/hasSimpleTrans}}
+		{{#hasSynos}}
+		<div id="synos" class="trans-wrapper">
+        <h3>
+            <span class="tabs">
+                <a rel="#etcTrans" class="tab-current"><span>同近义词</span></a>
+            </span>
+            <a class="toggle toggleOpen" rel="#synonyms"></a>
+        </h3>
+
+        <div id="synonyms" class="trans-container tab-content synonyms">
+            <ul>
+			{{#synos}}{{#item}}
+                <li>
+                    <p><span class="pos">n.</span> <span class="def">{{trans}}</span></p>
+                    <p class="syn"><span>{{&ws}}</span></p>
+                </li>{{/item}}
+			{{/synos}}
+			</ul>
+        </div>
+		{{/hasSynos}}
+    </div>
+	
+	{{#hasWebTrans}}
+	<div id="webTrans" class="trans-wrapper">
+        <h3>
+            <span class="tabs">
+                <a rel="#tWebTrans" class="tab-current"><span>网络释义</span></a>
+            </span>
+            <a class="toggle toggleOpen" rel="#webTransToggle"></a>
+        </h3>
+		{{#hasWebTransWord}}
+        <!--网络翻译-->
+        <div id="webTransToggle">
+            <div id="tWebTrans" class="trans-container tab-content">
+			{{#webTransWord}}{{#item}}
+                <div class="wt-container wt-collapse">
+                    <div>
+                        <a href="javascript:void(0)" title="详细释义" rel="#rw1" class="sp do-detail">&nbsp;</a><span>{{value}}</span>
+                    </div>
+
+                    <p>{{{summary}}}</p>
+
+                    <p class="via">基于{{support}}个网页<span class="sl">-</span><a href="javascript:void(0)" onclick='goURL("{{url}}");'>相关网页</a></p>
+                </div>{{/item}}
+			{{/webTransWord}}
+			
+         {{/hasWebTransWord}}
+         <div id="webPhrase" class="pr-container more-collapse">
+             <div>短语</div>
+             {{#webTrans}}
+             {{#item}}
+             <p class="wordGroup">
+             <span class="contentTitle" id="webtrans_row" data-log="{{key}}">{{key}}</span>
+             {{trans}}
+             </p>
+             {{/item}}
+             {{/webTrans}}
+							
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	{{/hasWebTrans}}
+	
+	{{#hasSentences}}
+	<div id="examples" class="trans-wrapper">
+        <h3>
+            <span class="tabs">
+                <a rel="#bilingual" class="tab-current"><span>双语例句</span></a>
+            </span>
+            <a class="toggle toggleOpen" rel="#examplesToggle"></a>
+        </h3>
+        <div id="examplesToggle">
+            <div id="bilingual" class="trans-container  tab-content more-collapse">
+                <ul class="ol">
+				{{#sentences}}{{#item}}
+                    <li>
+                        <p class="e-spell">{{sentence}}
+                        {{#haveSpeech}}
+                        <a data-speech="{{speechsentence}}" href="javascript:void(0)" title="发音" class="sp dictvoice"></a>
+                        {{/haveSpeech}}
+                        </p>
+                        
+                        <p>{{trans}}
+                        
+                        {{^haveSpeech}}
+                        <a data-speech="{{speechsentence}}" href="javascript:void(0)" title="发音" class="sp dictvoice"></a>
+                        {{/haveSpeech}}
+                        
+                        </p>
+
+                        <p class="example-via "><a href="javascript:void(0)" onclick="goURL('{{url}}')">{{{host}}}</a></p>
+                    </li>
+					{{/item}}
+				{{/sentences}}
+				</ul>
+                <div class="more" data-word="{{title}}"><a href="#" class="sp more_sp">&nbsp;</a><span class="show_more">更多</span><span
+                            class="show_less">收起</span>双语例句
+                </div>
+            </div>
+        </div>
+    </div>
+	{{/hasSentences}}
+	
+	{{#hasBaike}}
+	
+	 <div id="eBaike" class="trans-wrapper">
+        <h3>
+            <span class="tabs">
+                <a rel="#bk" class="tab-current"><span>百科</span></a>
+            </span>
+            <a class="toggle toggleOpen" rel="#eBaikeToggle"></a>
+        </h3>
+		{{#baike}}
+		{{#item}}
+        <div id="eBaikeToggle">
+            <div id="bk" class="trans-container  tab-content">
+                <a class="title" href="javascript:void(0)" data-word='{{key}}'>{{key}}</a>
+                <div class="content">
+                    <span class="img_r"><img src="{{{image}}}" alt=""></span>
+                    <p>{{{summary}}}
+                    </p>
+                </div>
+                <p><a class="see_more" data-word='{{title}}' href="#">更多与"{{key}}"相关的百科词条>></a></p>
+
+            </div>
+        </div>
+		{{/item}}
+		{{/baike}}
+    </div>
+	
+	{{/hasBaike}}
+</div>	
